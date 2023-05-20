@@ -1,0 +1,7 @@
+@import './variables';
+
+html{
+    font-family: $font, sans-serif;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
