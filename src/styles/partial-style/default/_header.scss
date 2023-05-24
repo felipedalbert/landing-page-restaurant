@@ -1,0 +1,44 @@
+body{
+
+    .main-content-box{
+
+        header{
+            background-color: $palette-2;
+            border-radius: 0px 0px 10px 10px;
+            padding: 20px;
+            position: fixed;
+            width: 100%;
+            top:0;
+
+            .container{
+                background-color: unset;
+            }
+
+            .navigation{
+                
+                ul{
+                    display: flex;
+                    align-items: center;
+                    column-gap: 44px;
+
+                    a{
+                        transition: ease-in-out .2s;
+                        font-size: 1.4rem;
+
+                        &:hover{
+                            color: $palette-1;
+                        }
+                    }
+                }
+
+                .close-menu-btn{
+                    display: none;
+                }
+            }
+
+            .open-menu-btn{
+                display: none;
+            }
+        }
+    }
+}
