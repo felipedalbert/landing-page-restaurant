@@ -159,4 +159,8 @@ body .main-content-box header .navigation .close-menu-btn {
 }
 body .main-content-box header .open-menu-btn {
   display: none;
+}
+
+body .main-content-box footer {
+  padding: 70px 0 14px 0;
 }/*# sourceMappingURL=buffet-style.css.map */
