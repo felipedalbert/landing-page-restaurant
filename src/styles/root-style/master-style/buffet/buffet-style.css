@@ -163,4 +163,16 @@ body .main-content-box header .open-menu-btn {
 
 body .main-content-box footer {
   padding: 70px 0 14px 0;
+}
+body .main-content-box footer .container {
+  flex-wrap: wrap;
+}
+body .main-content-box footer .container p {
+  margin-bottom: 8px;
+  color: #ea1d2c;
+}
+body .main-content-box footer .container .social {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=buffet-style.css.map */

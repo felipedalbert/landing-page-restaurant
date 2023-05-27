@@ -5,6 +5,22 @@ body{
         footer{
             padding: 70px 0 14px 0;
 
+            .container{
+                flex-wrap: wrap;
+
+                p{
+                    margin-bottom: 8px;
+                    color: $palette-1;
+                }
+                
+                .social{
+                    display: flex;
+                    align-items: center;
+                    flex-wrap: wrap;
+
+                    
+                }
+            }
         }
     }
 
