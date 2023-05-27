@@ -14,10 +14,26 @@ body{
                 }
                 
                 .social{
-                    display: flex;
-                    align-items: center;
-                    flex-wrap: wrap;
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-template-rows: repeat(2, 50%);
+                    grid-template-areas: 
+                        "social-media-text email"
+                        "icons email";
+                    column-gap: 84px;
 
+                    p{
+                        grid-area: social-media-text;
+                    }
+
+                    .icons{
+                        grid-area: icons;
+                    }
+
+                    .email{
+                        grid-area: email;
+                        align-self: center;
+                    }
                     
                 }
             }
