@@ -60,6 +60,7 @@ body .main-content-box .container {
   max-width: 1040px;
   margin: 0 auto;
   background-color: beige;
+  font-size: 1.4rem;
 }
 body .main-content-box section {
   scroll-margin-top: 120px;
@@ -149,7 +150,6 @@ body .main-content-box header .navigation ul {
 }
 body .main-content-box header .navigation ul a {
   transition: ease-in-out 0.2s;
-  font-size: 1.4rem;
 }
 body .main-content-box header .navigation ul a:hover {
   color: #ea1d2c;
@@ -163,9 +163,20 @@ body .main-content-box header .open-menu-btn {
 
 body .main-content-box footer {
   padding: 70px 0 14px 0;
+  background-color: #ffffff;
 }
 body .main-content-box footer .container {
   flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  -moz-column-gap: 75px;
+       column-gap: 75px;
+  row-gap: 33px;
+  background-color: #ffffff;
+}
+body .main-content-box footer .container img {
+  width: 242px;
+  height: 114px;
 }
 body .main-content-box footer .container p {
   margin-bottom: 8px;
@@ -185,7 +196,17 @@ body .main-content-box footer .container .social p {
 body .main-content-box footer .container .social .icons {
   grid-area: icons;
 }
+body .main-content-box footer .container .social .icons a i {
+  font-size: 1.7rem;
+}
+body .main-content-box footer .container .social .icons a:first-child {
+  margin-right: 16px;
+}
 body .main-content-box footer .container .social .email {
   grid-area: email;
   align-self: center;
+}
+body .main-content-box footer .container .copyright {
+  flex: 1 1 100%;
+  text-align: center;
 }/*# sourceMappingURL=buffet-style.css.map */

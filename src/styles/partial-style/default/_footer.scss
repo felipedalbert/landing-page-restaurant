@@ -4,9 +4,20 @@ body{
 
         footer{
             padding: 70px 0 14px 0;
+            background-color: $palette-2;
 
             .container{
                 flex-wrap: wrap;
+                align-items: start;
+                justify-content: center;
+                column-gap: 75px;
+                row-gap: 33px;
+                background-color: $palette-2;
+
+                img{
+                    width: 242px;
+                    height: 114px;
+                }
 
                 p{
                     margin-bottom: 8px;
@@ -28,6 +39,17 @@ body{
 
                     .icons{
                         grid-area: icons;
+
+                        a{
+                    
+                            i{
+                                font-size: 1.7rem;
+                            }
+                        }
+
+                        a:first-child{
+                            margin-right: 16px;
+                        }
                     }
 
                     .email{
@@ -35,6 +57,11 @@ body{
                         align-self: center;
                     }
                     
+                }
+
+                .copyright{
+                    flex: 1 1 100%;
+                    text-align: center;
                 }
             }
         }
