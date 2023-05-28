@@ -162,24 +162,25 @@ body .main-content-box header .open-menu-btn {
 }
 
 body .main-content-box footer {
-  padding: 70px 0 14px 0;
+  padding: 77px 0 7px 0;
   background-color: #ffffff;
 }
 body .main-content-box footer .container {
   flex-wrap: wrap;
   align-items: start;
   justify-content: center;
-  -moz-column-gap: 75px;
-       column-gap: 75px;
-  row-gap: 33px;
+  -moz-column-gap: 96px;
+       column-gap: 96px;
+  row-gap: 48px;
   background-color: #ffffff;
 }
 body .main-content-box footer .container img {
-  width: 242px;
-  height: 114px;
+  width: 219px;
+  height: 86px;
 }
 body .main-content-box footer .container p {
   margin-bottom: 8px;
+  margin-top: -4px;
   color: #ea1d2c;
 }
 body .main-content-box footer .container .social {
@@ -187,8 +188,8 @@ body .main-content-box footer .container .social {
   grid-template-columns: auto auto;
   grid-template-rows: repeat(2, 50%);
   grid-template-areas: "social-media-text email" "icons email";
-  -moz-column-gap: 84px;
-       column-gap: 84px;
+  -moz-column-gap: 72px;
+       column-gap: 72px;
 }
 body .main-content-box footer .container .social p {
   grid-area: social-media-text;
@@ -197,7 +198,16 @@ body .main-content-box footer .container .social .icons {
   grid-area: icons;
 }
 body .main-content-box footer .container .social .icons a i {
+  padding-bottom: 3px;
   font-size: 1.7rem;
+  color: #333333;
+  border-bottom: solid 1px;
+  border-color: transparent;
+  transition: ease-in-out 0.2s;
+}
+body .main-content-box footer .container .social .icons a i:hover {
+  border-color: #ea1d2c;
+  color: #000000;
 }
 body .main-content-box footer .container .social .icons a:first-child {
   margin-right: 16px;
@@ -209,4 +219,5 @@ body .main-content-box footer .container .social .email {
 body .main-content-box footer .container .copyright {
   flex: 1 1 100%;
   text-align: center;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=buffet-style.css.map */
