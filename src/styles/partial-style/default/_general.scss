@@ -7,30 +7,6 @@ body{
         margin: 0 auto;
         background-color: cadetblue;
 
-        .back-to-top-btn{
-            width: 38px;
-            height: 40px;
-            border: 1px solid $palette-1;
-            border-radius: 10px;
-            background: url(../../../../images/section-images/main/up-arrow.svg) no-repeat center;
-            cursor: pointer;
-            background-color: #ffffff;
-        }
-
-        .fixed-whatsapp-anchor{
-            display: flex;
-            flex-direction: column;
-            width: 145px;
-            align-items: flex-end;
-            display: none;
-        }
-
-        .rigth-bottom-btn{
-            position: fixed;
-            bottom: 40px;
-            right: 5%;
-        }
-
         .container{
             display: flex;
             align-items: center;
