@@ -30,7 +30,6 @@ body {
 body .main-content-box {
   height: 100%;
   margin: 0 auto;
-  background-color: cadetblue;
 }
 body .main-content-box .container {
   display: flex;
@@ -90,8 +89,8 @@ body .main-content-box .primary-btn.transparent {
   border: #ea1d2c solid 1px;
 }
 body .main-content-box .primary-btn.transparent:hover {
-  background-color: #fdeaeb;
-  border-color: #fdeaeb;
+  background-color: #ffe9ea;
+  border-color: #ffe9ea;
 }
 body .main-content-box .title-box .section-title {
   font-size: 4rem;
@@ -111,6 +110,7 @@ body .main-content-box .title-box .underline-title {
 
 body .main-content-box header {
   background-color: #ffffff;
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.25);
   border-radius: 0px 0px 10px 10px;
   padding: 20px;
   position: fixed;
@@ -118,9 +118,6 @@ body .main-content-box header {
   top: 0;
   left: 0;
   z-index: 1;
-}
-body .main-content-box header a {
-  line-height: 0;
 }
 body .main-content-box header a img {
   width: 124px;
