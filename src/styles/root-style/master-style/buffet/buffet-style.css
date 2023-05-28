@@ -38,7 +38,6 @@ body .main-content-box .container {
   justify-content: space-between;
   max-width: 1040px;
   margin: 0 auto;
-  background-color: beige;
   font-size: 1.4rem;
 }
 body .main-content-box section {
@@ -115,11 +114,17 @@ body .main-content-box header {
   border-radius: 0px 0px 10px 10px;
   padding: 20px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   top: 0;
+  left: 0;
+  z-index: 1;
 }
-body .main-content-box header .container {
-  background-color: unset;
+body .main-content-box header a {
+  line-height: 0;
+}
+body .main-content-box header a img {
+  width: 124px;
+  height: 49px;
 }
 body .main-content-box header .navigation ul {
   display: flex;

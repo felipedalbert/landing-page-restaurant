@@ -3,6 +3,7 @@ body{
 
     .main-content-box{
 
+        // max-width: 1440px;
         height: 100%;
         margin: 0 auto;
         background-color: cadetblue;
@@ -13,7 +14,6 @@ body{
             justify-content: space-between;
             max-width: $container-max-width;
             margin: 0 auto;
-            background-color: beige;
             font-size: 1.4rem;
         }
 
