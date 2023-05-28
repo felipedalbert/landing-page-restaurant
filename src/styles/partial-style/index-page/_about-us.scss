@@ -1,0 +1,58 @@
+body{
+
+    .main-content-box{
+
+        .about-us{
+            
+
+            .container{
+                padding-block: 50px;
+                background: url(../../../../images/section-images/about-us/cut-s-letter-bg.png) no-repeat;
+                background-size: contain;
+                background-position-x: -22px;
+
+                .side-images{
+                    position: relative;
+                    height: 330px;
+                    width: 470px;
+
+                    img{
+                        position: absolute;
+                        
+                        width: 275px;
+                        height: 194px;
+
+                        &:first-child{
+                            top: 0;
+                        }
+
+                        &:last-child{
+                            bottom: 0;
+                            right: 0;
+                        }
+                    }
+                
+                }
+
+                .side-text{
+                    .title-box{
+                        margin-bottom: 20px;
+                    }
+
+                    > p{
+                        color: $primary-text-color;
+                        width: 500px;
+                        margin-bottom: 20px;
+                    }
+
+                    .about-us-btn-links{
+                        display: flex;
+                        gap: 24px;
+                    }
+                }
+            }
+            
+        }
+    }
+
+}
