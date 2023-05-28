@@ -1,5 +1,13 @@
 body{
-    background-color: #f5f5f5;
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $palette-1;
+        border-radius: 10px;
+    }
 
     .main-content-box{
         // max-width: 1440px;
