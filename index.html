@@ -69,10 +69,10 @@
 
         <main>
             <section class="carousel" id="carousel">
-                <div class="carousel-img one "></div>
+                <div class="carousel-img one active"></div>
                 <div class="carousel-img two  "></div>
                 <div class="carousel-img three  "></div>
-                <div class="carousel-img four  active"></div>
+                <div class="carousel-img four  "></div>
 
                 <div class="conversion-text">
                     <h2 class="title">Está com fome?</h2>
@@ -147,18 +147,24 @@
             </section>
 
             <section class="imgs-panel" id="imgs-panel">
-                    <div class="frame">
-                        <img class="panel-img one" src="" alt="">
-                    </div>
-                    <div class="frame">
-                        <img class="panel-img two" src="" alt="">
-                    </div>
-                    <div class="frame">
-                        <img class="panel-img three" src="" alt="">
-                    </div>
-                    <div class="frame">
-                        <img class="panel-img four" src="" alt="">
-                    </div>
+                    <picture class="frame one">
+                        <source class="panel-img" media="(min-width: 1600px)" srcset="src/images/section-images/imgs-panel/responsive/resp-img-panel-1.jpg">
+                        <img class="panel-img" src="src/images/section-images/imgs-panel/img-panel-1.jpg" alt="">
+                    </picture>
+                    <picture class="frame two">
+                        <source class="panel-img" media="(min-width: 1600px)" srcset="src/images/section-images/imgs-panel/responsive/resp-img-panel-2.jpg">
+                        <img class="panel-img" src="src/images/section-images/imgs-panel/img-panel-2.jpg" alt="">
+                    </picture>
+                    <picture class="frame three">
+                        <source class="panel-img" media="(min-width: 1600px)" srcset="src/images/section-images/imgs-panel/responsive/resp-img-panel-3.jpg">
+                        <img class="panel-img" src="src/images/section-images/imgs-panel/img-panel-3.jpg" alt="">  
+                    </picture>
+                    <picture class="frame four">
+                        
+                            <source class="panel-img" media="(min-width: 1600px)" srcset="src/images/section-images/imgs-panel/responsive/resp-img-panel-4.jpg">
+                            <img class="panel-img" src="src/images/section-images/imgs-panel/img-panel-4.jpg" alt="">
+                        
+                    </picture>
             </section>
 
             <section class="delivery" id="delivery">

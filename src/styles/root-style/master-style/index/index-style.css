@@ -24,6 +24,9 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #fdfdfd;
+}
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -45,6 +48,7 @@ body .main-content-box .container {
 }
 body .main-content-box section {
   scroll-margin-top: 120px;
+  background-color: #ffffff;
 }
 
 body .main-content-box .primary-btn {
@@ -352,4 +356,22 @@ body .main-content-box .about-us .container .side-text > p {
 body .main-content-box .about-us .container .side-text .about-us-btn-links {
   display: flex;
   gap: 24px;
+}
+
+body .main-content-box .imgs-panel {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+body .main-content-box .imgs-panel .frame {
+  overflow: hidden;
+}
+body .main-content-box .imgs-panel .frame:hover .panel-img {
+  transform: scale(1.06);
+  transition: ease-in-out 0.3s;
+  filter: brightness(100%);
+}
+body .main-content-box .imgs-panel .frame .panel-img {
+  transition: ease 0.3s;
+  filter: brightness(80%);
+  height: 100%;
 }/*# sourceMappingURL=index-style.css.map */

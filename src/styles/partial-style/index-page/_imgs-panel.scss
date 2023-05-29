@@ -1,0 +1,28 @@
+body{
+
+    .main-content-box{
+
+        .imgs-panel{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            .frame{
+                overflow: hidden;  
+
+                &:hover .panel-img{
+                    transform: scale(1.06);
+                    transition: ease-in-out .3s;
+                    filter: brightness(100%);
+                }
+
+                .panel-img{
+                    transition: ease .3s;
+                    filter: brightness(80%);
+                    height: 100%;
+                }
+ 
+            }
+        }
+    }
+
+}
