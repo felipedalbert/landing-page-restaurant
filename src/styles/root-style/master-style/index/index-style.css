@@ -372,6 +372,6 @@ body .main-content-box .imgs-panel .frame:hover .panel-img {
 }
 body .main-content-box .imgs-panel .frame .panel-img {
   transition: ease 0.3s;
-  filter: brightness(80%);
+  filter: brightness(90%);
   height: 100%;
 }/*# sourceMappingURL=index-style.css.map */
