@@ -89,7 +89,7 @@ body .main-content-box .primary-btn.red {
   color: #ffffff;
 }
 body .main-content-box .primary-btn.red:hover {
-  background-color: #da1a27;
+  background-color: #cf1925;
   color: #ffffff;
 }
 body .main-content-box .primary-btn.transparent {
@@ -331,7 +331,7 @@ body .main-content-box .about-us .container {
 body .main-content-box .about-us .container .side-images {
   position: relative;
   height: 330px;
-  width: 470px;
+  width: 480px;
 }
 body .main-content-box .about-us .container .side-images img {
   position: absolute;
