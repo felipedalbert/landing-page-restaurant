@@ -24,9 +24,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: #fdfdfd;
-}
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -35,6 +32,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 }
 body .main-content-box {
+  max-width: 2000px;
   height: 100%;
   margin: 0 auto;
 }
@@ -361,6 +359,7 @@ body .main-content-box .about-us .container .side-text .about-us-btn-links {
 body .main-content-box .imgs-panel {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  background-color: #ffe9ea;
 }
 body .main-content-box .imgs-panel .frame {
   overflow: hidden;

@@ -1,5 +1,4 @@
 body{
-    background-color: #fdfdfd;
 
     &::-webkit-scrollbar {
         width: 5px;
@@ -12,7 +11,7 @@ body{
     }
 
     .main-content-box{
-       
+        max-width: 2000px;
         height: 100%;
         margin: 0 auto;
         
