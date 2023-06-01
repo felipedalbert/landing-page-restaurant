@@ -373,4 +373,11 @@ body .main-content-box .imgs-panel .frame .panel-img {
   transition: ease 0.3s;
   filter: brightness(90%);
   height: 100%;
+}
+
+body .main-content-box .delivery {
+  padding-block: 56px 40px;
+}
+body .main-content-box .delivery .info .title-box {
+  margin-bottom: 42px;
 }/*# sourceMappingURL=index-style.css.map */
