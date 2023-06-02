@@ -4,6 +4,52 @@ body{
 
         .faq{
             
+            background-color: $palette-3;
+
+            .content-box{
+                padding-block: 56px;
+
+                .title-box{
+                    margin-bottom: 27px;
+                }
+
+                .accordion{
+                    display: flex;
+                    flex-direction: column;
+                    width: 500px;
+
+                    .line-question{
+                        width: 100%;
+                        padding: 18px 24px;
+                        background-color: $palette-2;
+                        border-radius: 8px;
+
+                        &:not(:last-child){
+                            margin-bottom: 14px;
+                        }
+
+                        .label{
+                            display: flex;
+                            justify-content: space-between;
+                            margin-bottom: 18px;
+
+                            h4{
+                                color: $palette-1;
+                            }
+
+                            .arrow-down{
+                                font-size: 1.1rem;
+                                color: #a3a3a3;
+                                transform: rotate(-90deg);
+                            }
+                        }
+
+                        .text-content{
+                            color: #3c3c3c;
+                        }
+                    }
+                }
+            }
         }
     }
 
