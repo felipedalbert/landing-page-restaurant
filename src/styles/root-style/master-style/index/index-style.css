@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-}
-
 a {
   text-decoration: none;
   color: black;
@@ -330,7 +326,7 @@ body .main-content-box .about-us .container {
 body .main-content-box .about-us .container .side-images {
   position: relative;
   height: 330px;
-  width: 480px;
+  width: 460px;
 }
 body .main-content-box .about-us .container .side-images img {
   position: absolute;
@@ -374,6 +370,7 @@ body .main-content-box .imgs-panel .frame .panel-img {
   transition: ease 0.3s;
   filter: brightness(90%);
   height: 100%;
+  max-width: 100%;
 }
 
 body .main-content-box .delivery {
@@ -413,12 +410,16 @@ body .main-content-box .delivery .info .delivery-btn-links span {
   color: #acacac;
   font-size: 0.9rem;
 }
+body .main-content-box .delivery .deliveryman-img {
+  min-width: 490px;
+}
 
 body .main-content-box .faq {
   background-color: #ffe9ea;
-}
-body .main-content-box .faq .content-box {
   padding-block: 56px;
+}
+body .main-content-box .faq img {
+  max-width: 448px;
 }
 body .main-content-box .faq .content-box .title-box {
   margin-bottom: 27px;
@@ -426,7 +427,7 @@ body .main-content-box .faq .content-box .title-box {
 body .main-content-box .faq .content-box .accordion {
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 490px;
 }
 body .main-content-box .faq .content-box .accordion .line-question {
   width: 100%;

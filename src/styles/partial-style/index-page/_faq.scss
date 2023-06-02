@@ -3,11 +3,14 @@ body{
     .main-content-box{
 
         .faq{
-            
             background-color: $palette-3;
+            padding-block: 56px;
+            img{
+                max-width: 448px;
+            }
 
             .content-box{
-                padding-block: 56px;
+                
 
                 .title-box{
                     margin-bottom: 27px;
@@ -16,7 +19,7 @@ body{
                 .accordion{
                     display: flex;
                     flex-direction: column;
-                    width: 500px;
+                    width: 490px;
 
                     .line-question{
                         width: 100%;
