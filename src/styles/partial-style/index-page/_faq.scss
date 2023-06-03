@@ -6,10 +6,8 @@ body{
             background-color: $palette-3;
             padding-block: 60px;
             
-
             .content-box{
                 
-
                 .title-box{
                     margin-bottom: 27px;
                 }
@@ -30,12 +28,19 @@ body{
                             margin-bottom: 14px;
                         }
 
+                        &:hover{
+                            h4{
+                                color: $palette-1;
+                            }
+                        }
+
                         .label{
                             display: flex;
                             justify-content: space-between;
-                            transition: ease .2s;
+                            transition: ease .3s;
 
                             h4{
+                                transition: ease .3s;
                                 font-weight: 600;
                             }
 
@@ -44,7 +49,7 @@ body{
                                 font-size: 1.1rem;
                                 color: #a3a3a3;
                                 transform: rotate(-90deg);
-                                transition: ease .2s;
+                                transition: ease .3s;
                                 
                             }
                         }
@@ -54,6 +59,9 @@ body{
                             height: 0;
                             overflow: hidden;
                             transition: ease .2s;
+                            width: 455px;
+                            margin-left: 15px;
+                            padding-right: 10px;
                         }
 
                         &:nth-child(3){
@@ -79,7 +87,7 @@ body{
                                     z-index: -1;
                                     left: 0;
                                     right: 100%;
-                                    bottom: -2px;
+                                    bottom: 0px;
                                     background: $palette-1;
                                     height: 1px;
                                     -webkit-transition-property: right;
@@ -101,25 +109,40 @@ body{
                         &.active{
 
                             .label{
-                                margin-bottom: 18px;
+                                margin-bottom: 10px;
 
                                 .arrow-down{
                                     transform: rotate(0);
-                                    transform: translate(-50%, 25%);
+                                    transform: translate(-30%, 25%);
                                 }
 
                                 h4{
                                     color: $palette-1;
                                 }
                             }
-                            
+                        
+                        }
+
+                        &:nth-child(even).active{
+
                             .text-content{
                                 height: 21px;
                             }
                         }
-
+                        
                         &:nth-child(1).active{
- 
+
+                            .text-content{
+                                height: 105px;
+                            }
+                        }
+
+                        &:nth-child(3).active{
+
+                            .text-content{
+                                height: 105px;
+                                overflow-y: scroll;
+                            }
                         }
                     }
 
