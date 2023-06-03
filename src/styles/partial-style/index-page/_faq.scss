@@ -5,9 +5,7 @@ body{
         .faq{
             background-color: $palette-3;
             padding-block: 66px;
-            img{
-                max-width: 448px;
-            }
+            
 
             .content-box{
                 
@@ -19,13 +17,14 @@ body{
                 .accordion{
                     display: flex;
                     flex-direction: column;
-                    width: 490px;
+                    width: 560px;
 
                     .line-question{
                         width: 100%;
                         padding: 18px 24px;
                         background-color: $palette-2;
                         border-radius: 8px;
+                        cursor: pointer;
 
                         &:not(:last-child){
                             margin-bottom: 14px;
@@ -34,23 +33,97 @@ body{
                         .label{
                             display: flex;
                             justify-content: space-between;
-                            margin-bottom: 18px;
+                            transition: ease .2s;
 
                             h4{
-                                color: $palette-1;
+                                font-weight: 600;
                             }
 
                             .arrow-down{
+                                text-align: center;
                                 font-size: 1.1rem;
                                 color: #a3a3a3;
                                 transform: rotate(-90deg);
+                                transition: ease .2s;
+                                
                             }
                         }
 
                         .text-content{
                             color: #3c3c3c;
+                            height: 0;
+                            overflow: hidden;
+                            transition: ease .2s;
+                        }
+
+                        &:nth-child(3){
+
+                            ul{
+                                margin-block: 16px;
+                            }
+
+                            a{
+                                display: inline-block;
+                                margin-top: 16px;
+                                color: $palette-1;
+                                align-self: flex-start;
+                                vertical-align: middle;
+                                -webkit-transform: perspective(1px) translateZ(0);
+                                transform: perspective(1px) translateZ(0);
+                                box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                                position: relative;
+
+                                &::before{
+                                    content: "";
+                                    position: absolute;
+                                    z-index: -1;
+                                    left: 0;
+                                    right: 100%;
+                                    bottom: -2px;
+                                    background: $palette-1;
+                                    height: 1px;
+                                    -webkit-transition-property: right;
+                                    transition-property: right;
+                                    -webkit-transition-duration: 0.2s;
+                                    transition-duration: 0.1s;
+                                    -webkit-transition-timing-function: ease-out;
+                                    transition-timing-function: ease-out;
+                                }
+
+                                &:hover::before{
+                                    right: 0;
+                                }
+                            }
+
+                            
+                        }
+
+                        &.active{
+
+                            .label{
+                                margin-bottom: 18px;
+
+                                .arrow-down{
+                                    transform: rotate(0);
+                                    transform: translate(-50%, 25%);
+                                }
+
+                                h4{
+                                    color: $palette-1;
+                                }
+                            }
+                            
+                            .text-content{
+                                height: 21px;
+                            }
+                        }
+
+                        &:nth-child(1).active{
+ 
                         }
                     }
+
+                   
                 }
             }
         }
