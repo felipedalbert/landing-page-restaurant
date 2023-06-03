@@ -36,7 +36,7 @@ body .main-content-box .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1040px;
+  max-width: 1020px;
   margin: 0 auto;
   font-size: 1.4rem;
   position: relative;
@@ -153,8 +153,8 @@ body .main-content-box footer .container {
   flex-wrap: wrap;
   align-items: start;
   justify-content: center;
-  -moz-column-gap: 96px;
-       column-gap: 96px;
+  -moz-column-gap: 90px;
+       column-gap: 90px;
   row-gap: 48px;
   background-color: #ffffff;
 }
