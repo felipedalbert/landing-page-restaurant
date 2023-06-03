@@ -155,8 +155,8 @@ body .main-content-box footer .container {
   flex-wrap: wrap;
   align-items: start;
   justify-content: center;
-  -moz-column-gap: 90px;
-       column-gap: 90px;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
   row-gap: 48px;
   background-color: #ffffff;
 }
@@ -174,8 +174,8 @@ body .main-content-box footer .container .social {
   grid-template-columns: auto auto;
   grid-template-rows: repeat(2, 50%);
   grid-template-areas: "social-media-text email" "icons email";
-  -moz-column-gap: 72px;
-       column-gap: 72px;
+  -moz-column-gap: 92px;
+       column-gap: 92px;
 }
 body .main-content-box footer .container .social p {
   grid-area: social-media-text;

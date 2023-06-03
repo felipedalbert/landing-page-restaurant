@@ -10,7 +10,7 @@ body{
                 flex-wrap: wrap;
                 align-items: start;
                 justify-content: center;
-                column-gap: 90px;
+                column-gap: 120px;
                 row-gap: 48px;
                 background-color: $palette-2;
 
@@ -32,7 +32,7 @@ body{
                     grid-template-areas: 
                         "social-media-text email"
                         "icons email";
-                    column-gap: 72px;
+                    column-gap: 92px;
 
                     p{
                         grid-area: social-media-text;
