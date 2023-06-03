@@ -125,6 +125,7 @@ body .main-content-box header {
 body .main-content-box header a img {
   width: 124px;
   height: 49px;
+  margin-bottom: -6px;
 }
 body .main-content-box header .navigation ul {
   display: flex;
@@ -373,7 +374,7 @@ body .main-content-box .imgs-panel .frame .panel-img {
 }
 
 body .main-content-box .delivery {
-  padding-block: 66px 50px;
+  padding-block: 70px;
 }
 body .main-content-box .delivery .info .title-box {
   margin-bottom: 42px;
@@ -415,7 +416,7 @@ body .main-content-box .delivery .deliveryman-img {
 
 body .main-content-box .faq {
   background-color: #ffe9ea;
-  padding-block: 66px;
+  padding-block: 60px;
 }
 body .main-content-box .faq .content-box .title-box {
   margin-bottom: 27px;
