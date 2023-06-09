@@ -218,6 +218,32 @@ body .main-content-box footer .container .copyright {
   font-size: 1.3rem;
 }
 
+body .main-content-box .back-to-top-btn {
+  width: 38px;
+  height: 40px;
+  border: 1px solid #ea1d2c;
+  border-radius: 10px;
+  background: url(../../../../images/section-images/main/up-arrow.svg) no-repeat center;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+body .main-content-box .fixed-whatsapp-anchor {
+  flex-direction: column;
+  width: 145px;
+  align-items: flex-end;
+  display: none;
+}
+body .main-content-box .rigth-bottom-btn {
+  position: fixed;
+  z-index: 1;
+  bottom: 40px;
+  right: 2.5%;
+}
+
+body .main-content-box .back-to-top-btn {
+  background-color: #373737;
+  border-color: #ff333c;
+}
 body .main-content-box header {
   background-color: #373737;
 }

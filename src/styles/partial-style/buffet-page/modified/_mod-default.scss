@@ -2,6 +2,11 @@ body{
 
     .main-content-box{
 
+        .back-to-top-btn{
+            background-color: $dark-bg-2;
+            border-color: #ff333c;
+        }
+
         header{
             background-color: $dark-bg-2;
 
@@ -80,10 +85,7 @@ body{
                         color: #ffffff;
                         
                     }
-                }
-
-                            
-                        
+                }          
             }
         }
     }
