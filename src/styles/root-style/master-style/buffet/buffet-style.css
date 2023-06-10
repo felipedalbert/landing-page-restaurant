@@ -352,6 +352,7 @@ body .main-content-box .buffet .container .imgs-gallery:hover .frame:not(:hover)
   filter: brightness(60%);
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+  height: 337px;
   display: grid;
   grid-template-rows: auto 271px;
   -moz-column-gap: 30px;
