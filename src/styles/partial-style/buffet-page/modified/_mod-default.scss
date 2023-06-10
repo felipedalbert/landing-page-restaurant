@@ -1,6 +1,8 @@
 body{
+    background-color: $dark-bg-1;
 
     .main-content-box{
+        max-width: unset;
 
         .back-to-top-btn{
             background-color: $dark-bg-2;

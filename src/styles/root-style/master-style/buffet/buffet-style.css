@@ -264,6 +264,12 @@ body .main-content-box .rigth-bottom-btn {
   right: 2.5%;
 }
 
+body {
+  background-color: #1c1919;
+}
+body .main-content-box {
+  max-width: unset;
+}
 body .main-content-box .back-to-top-btn {
   background-color: #373737;
   border-color: #ff333c;
@@ -331,9 +337,6 @@ body .main-content-box footer .container .social .icons a i:hover {
   color: #ffffff;
 }
 
-body {
-  background-color: #1c1919;
-}
 body .main-content-box .buffet {
   background-color: #1c1919;
   padding-block: 134px 42px;
