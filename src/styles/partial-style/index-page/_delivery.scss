@@ -27,39 +27,11 @@ body{
                     }
 
                 }
-
-                .delivery-btn-links{
-                    display: flex;
-
-                    div{
-                        text-align: center;
-                    }
-
-                    .whatsapp-container{
-                        margin-right: 24px;
-                    }
-
-                    .ifood-container{
-                        
-                        .ifood-logo{
-                            width: 30px;
-                            height: 16px;
-                            margin-bottom: -2px;
-                        }
-                    }
-
-                    span{
-                        margin-top: 5px;
-                        color: $notice-text-color;
-                        font-size: .9rem;
-                    }
-                }
             }
 
             .deliveryman-img{
-                min-width: 560px;
+                    min-width: 560px;
             }
-
         }
     }
 }

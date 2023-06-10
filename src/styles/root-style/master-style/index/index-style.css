@@ -105,6 +105,25 @@ body .main-content-box .primary-btn.transparent:hover {
   background-color: #ffe9ea;
   border-color: #ffe9ea;
 }
+body .main-content-box .delivery-btn-links {
+  display: flex;
+}
+body .main-content-box .delivery-btn-links div {
+  text-align: center;
+}
+body .main-content-box .delivery-btn-links .whatsapp-container {
+  margin-right: 24px;
+}
+body .main-content-box .delivery-btn-links .ifood-container .ifood-logo {
+  width: 30px;
+  height: 16px;
+  margin-bottom: -2px;
+}
+body .main-content-box .delivery-btn-links span {
+  margin-top: 5px;
+  color: #acacac;
+  font-size: 0.9rem;
+}
 body .main-content-box .title-box .section-title {
   font-size: 4rem;
   font-weight: 600;
@@ -401,25 +420,6 @@ body .main-content-box .delivery .info .marmite-prices .marmite:not(:last-of-typ
 }
 body .main-content-box .delivery .info .marmite-prices .marmite .separator {
   margin-right: 4px;
-}
-body .main-content-box .delivery .info .delivery-btn-links {
-  display: flex;
-}
-body .main-content-box .delivery .info .delivery-btn-links div {
-  text-align: center;
-}
-body .main-content-box .delivery .info .delivery-btn-links .whatsapp-container {
-  margin-right: 24px;
-}
-body .main-content-box .delivery .info .delivery-btn-links .ifood-container .ifood-logo {
-  width: 30px;
-  height: 16px;
-  margin-bottom: -2px;
-}
-body .main-content-box .delivery .info .delivery-btn-links span {
-  margin-top: 5px;
-  color: #acacac;
-  font-size: 0.9rem;
 }
 body .main-content-box .delivery .deliveryman-img {
   min-width: 560px;
