@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 * {
   margin: 0;
@@ -154,7 +155,7 @@ body .main-content-box header {
   width: 100vw;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
 }
 body .main-content-box header a img {
   width: 124px;
@@ -328,4 +329,124 @@ body .main-content-box footer .container .social .icons a i {
 body .main-content-box footer .container .social .icons a i:hover {
   border-color: #ff333c;
   color: #ffffff;
+}
+
+body {
+  background-color: #1c1919;
+}
+body .main-content-box .buffet {
+  background-color: #1c1919;
+  padding-block: 134px 42px;
+}
+body .main-content-box .buffet .container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+}
+body .main-content-box .buffet .container .imgs-gallery {
+  margin-bottom: 48px;
+}
+body .main-content-box .buffet .container .imgs-gallery:hover .frame:not(:hover) img {
+  filter: brightness(60%);
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+  display: grid;
+  grid-template-rows: auto 271px;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  align-items: center;
+  justify-items: center;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame {
+  height: 100%;
+  transition: ease 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame:hover, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame:hover {
+  transform: scale(1.02);
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame img, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame img {
+  transition: ease-in-out 0.3s;
+  height: 100%;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one {
+  grid-area: img-1;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two {
+  grid-area: img-2;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three {
+  grid-area: img-3;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet {
+  grid-template-columns: minmax(auto, 267px) minmax(auto, 329px) minmax(auto, 442px);
+  grid-template-areas: "title img-2 img-3" "img-1 img-2 img-3";
+  margin-bottom: 50px;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before {
+  content: "Seu Prato Feito por apenas R$ 19,00 e Buffe Livre a partir de R$ 24,50";
+  width: 340px;
+}
+body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+  grid-template-columns: minmax(auto, 442px) minmax(auto, 329px) minmax(auto, 267px);
+  grid-template-areas: "img-1 img-2 title" "img-1 img-2 img-3";
+}
+body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::before {
+  content: "A escolha perfeita para uma refeição completa a partir de R$ 105,00";
+  width: 362px;
+}
+body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::after {
+  content: "Disponível às Quartas-Feiras e Sábados";
+  position: absolute;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #515151;
+  right: 12px;
+  bottom: 6px;
+  transition: ease 0.2s;
+  text-align: center;
+  z-index: 1;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three img, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one img {
+  filter: brightness(60%);
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::before {
+  position: absolute;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: ease 0.3s;
+  text-align: center;
+  z-index: 1;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three:hover img, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one:hover img {
+  filter: brightness(100%);
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three:hover::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one:hover::before {
+  top: 115%;
+}
+body .main-content-box .buffet .container .imgs-gallery .title-box {
+  grid-area: title;
+  align-items: center;
+}
+body .main-content-box .buffet .container .imgs-gallery .title-box .section-title {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 35px;
+  color: #ffffff;
+}
+body .main-content-box .buffet .container .imgs-gallery .title-box .section-title .underline-title {
+  width: 18px;
+  height: 18px;
+  border-radius: unset;
+  margin-right: 12px;
+}
+body .main-content-box .buffet .container .delivery-btn-links .ifood-container .primary-btn:hover {
+  background-color: #dcd8d8;
+  border-color: #dcd8d8;
 }/*# sourceMappingURL=buffet-style.css.map */
