@@ -259,7 +259,7 @@ body .main-content-box .fixed-whatsapp-anchor {
 }
 body .main-content-box .rigth-bottom-btn {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   bottom: 40px;
   right: 2.5%;
 }
