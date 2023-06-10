@@ -341,7 +341,6 @@ body .main-content-box .buffet {
 body .main-content-box .buffet .container {
   display: flex;
   flex-direction: column;
-  max-width: 1500px;
 }
 body .main-content-box .buffet .container .imgs-gallery {
   margin-bottom: 48px;
@@ -352,8 +351,8 @@ body .main-content-box .buffet .container .imgs-gallery:hover .frame:not(:hover)
 body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
   display: grid;
   grid-template-rows: auto 271px;
-  -moz-column-gap: 50px;
-       column-gap: 50px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
   align-items: center;
   justify-items: center;
 }
@@ -382,7 +381,7 @@ body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three
 body .main-content-box .buffet .container .imgs-gallery .our-buffet {
   grid-template-columns: minmax(auto, 267px) minmax(auto, 329px) minmax(auto, 442px);
   grid-template-areas: "title img-2 img-3" "img-1 img-2 img-3";
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before {
   content: "Seu Prato Feito por apenas R$ 19,00 e Buffe Livre a partir de R$ 24,50";
