@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -400,7 +404,6 @@ body .main-content-box .imgs-panel .frame .panel-img {
   transition: ease 0.3s;
   filter: brightness(90%);
   height: 100%;
-  max-width: 100%;
 }
 
 body .main-content-box .delivery {
