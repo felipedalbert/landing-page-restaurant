@@ -620,6 +620,8 @@ body .main-content-box .contact .side-form .form-container .submit-container .va
 }
 body .main-content-box .contact .side-address iframe {
   margin-bottom: 5px;
+  width: 560px;
+  height: 348px;
 }
 body .main-content-box .contact .side-address p {
   text-align: center;
