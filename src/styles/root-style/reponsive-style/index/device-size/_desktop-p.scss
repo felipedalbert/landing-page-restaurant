@@ -1,0 +1,109 @@
+@media (max-width: 1160px){
+    
+    body{
+
+        .main-content-box{
+
+            .container{
+                max-width: 960px;
+            }
+
+            .delivery-btn-links{
+
+                .whatsapp-container{
+                    margin-right: 12px;
+                }
+            }
+
+            .about-us{
+
+                .container{
+                    background-position-x: -50px;
+
+                    .side-images{
+                        width: 410px;
+                        height: 300px;
+
+                        img{
+                            width: 247px;
+                            height: 174px;
+                        }
+                    }
+                    
+                    .side-text{
+
+                        > p{
+                            width: 500px;       
+                        }
+
+                        .about-us-btn-links{
+                            gap: 12px;
+                        }
+                    }
+                    
+                }
+                
+            }
+
+            .delivery{
+
+                .deliveryman-img{
+                    width: 460px;
+                }
+            }
+
+            .faq{
+                
+                .searching-img{
+                    width: 436px;
+                }
+
+                .content-box{
+
+                    .accordion{
+                        width: 500px;
+
+                        .line-question{
+
+                            .text-content{
+                                width: 420px;
+                                padding-right: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contact{
+
+                .side-form{
+                    
+                    .form-container{
+                        margin-top: 28px;
+                        width: 436px;
+                    }
+                }
+
+                .side-address{
+                    
+                    iframe{
+                        width: 470px;
+                        height: 320px;
+                    }
+                }
+                
+            }
+
+            footer{
+                
+                .container{
+                    column-gap: 70px;
+
+                    .social{
+                        column-gap: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

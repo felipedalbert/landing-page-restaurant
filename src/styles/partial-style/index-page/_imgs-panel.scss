@@ -8,7 +8,7 @@ body{
             background-color: $palette-3;
 
             .frame{
-                overflow: hidden;  
+                overflow: hidden;
 
                 &:hover .panel-img{
                     transform: scale(1.04);

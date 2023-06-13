@@ -425,12 +425,15 @@ body .main-content-box .delivery .info .marmite-prices .marmite .separator {
   margin-right: 4px;
 }
 body .main-content-box .delivery .deliveryman-img {
-  min-width: 560px;
+  width: 560px;
 }
 
 body .main-content-box .faq {
   background-color: #ffe9ea;
   padding-block: 60px;
+}
+body .main-content-box .faq .searching-img {
+  width: 460px;
 }
 body .main-content-box .faq .content-box .title-box {
   margin-bottom: 27px;

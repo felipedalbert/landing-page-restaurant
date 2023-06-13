@@ -1,1 +1,54 @@
-/*# sourceMappingURL=index-responsive.css.map */
+@media (max-width: 1160px) {
+  body .main-content-box .container {
+    max-width: 960px;
+  }
+  body .main-content-box .delivery-btn-links .whatsapp-container {
+    margin-right: 12px;
+  }
+  body .main-content-box .about-us .container {
+    background-position-x: -50px;
+  }
+  body .main-content-box .about-us .container .side-images {
+    width: 410px;
+    height: 300px;
+  }
+  body .main-content-box .about-us .container .side-images img {
+    width: 247px;
+    height: 174px;
+  }
+  body .main-content-box .about-us .container .side-text > p {
+    width: 500px;
+  }
+  body .main-content-box .about-us .container .side-text .about-us-btn-links {
+    gap: 12px;
+  }
+  body .main-content-box .delivery .deliveryman-img {
+    width: 460px;
+  }
+  body .main-content-box .faq .searching-img {
+    width: 436px;
+  }
+  body .main-content-box .faq .content-box .accordion {
+    width: 500px;
+  }
+  body .main-content-box .faq .content-box .accordion .line-question .text-content {
+    width: 420px;
+    padding-right: 8px;
+  }
+  body .main-content-box .contact .side-form .form-container {
+    margin-top: 28px;
+    width: 436px;
+  }
+  body .main-content-box .contact .side-address iframe {
+    width: 470px;
+    height: 320px;
+  }
+  body .main-content-box footer .container {
+    -moz-column-gap: 70px;
+         column-gap: 70px;
+  }
+  body .main-content-box footer .container .social {
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+}/*# sourceMappingURL=index-responsive.css.map */
