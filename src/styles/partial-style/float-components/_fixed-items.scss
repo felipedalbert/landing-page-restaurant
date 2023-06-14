@@ -10,6 +10,13 @@ body{
             background: url(../../../../images/section-images/main/up-arrow.svg) no-repeat center;
             cursor: pointer;
             background-color: #ffffff;
+            bottom: -40px;
+            transition: ease-out .2s;
+
+            &.active{
+                bottom: 40px;
+                transition: ease-in .2s;
+            }
         }
 
         .fixed-whatsapp-anchor{
@@ -42,7 +49,6 @@ body{
         .rigth-bottom-btn{
             position: fixed;
             z-index: 2;
-            bottom: 40px;
             right: 2.5%;
         }
     }   

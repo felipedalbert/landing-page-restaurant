@@ -250,6 +250,12 @@ body .main-content-box .back-to-top-btn {
   background: url(../../../../images/section-images/main/up-arrow.svg) no-repeat center;
   cursor: pointer;
   background-color: #ffffff;
+  bottom: -40px;
+  transition: ease-out 0.2s;
+}
+body .main-content-box .back-to-top-btn.active {
+  bottom: 40px;
+  transition: ease-in 0.2s;
 }
 body .main-content-box .fixed-whatsapp-anchor {
   flex-direction: column;
@@ -273,7 +279,6 @@ body .main-content-box .fixed-whatsapp-anchor > .message {
 body .main-content-box .rigth-bottom-btn {
   position: fixed;
   z-index: 2;
-  bottom: 40px;
   right: 2.5%;
 }
 
