@@ -2,9 +2,6 @@
   body .main-content-box .container {
     max-width: 960px;
   }
-  body .main-content-box .delivery-btn-links .whatsapp-container {
-    margin-right: 12px;
-  }
   body .main-content-box .about-us .container {
     background-position-x: -50px;
   }
@@ -21,6 +18,9 @@
   }
   body .main-content-box .about-us .container .side-text .about-us-btn-links {
     gap: 12px;
+  }
+  body .main-content-box .delivery .delivery-btn-links .whatsapp-container {
+    margin-right: 12px;
   }
   body .main-content-box .delivery .deliveryman-img {
     width: 460px;
