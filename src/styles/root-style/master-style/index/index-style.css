@@ -24,14 +24,14 @@ html {
   scroll-behavior: smooth;
 }
 
-@keyframes validation {
+@keyframes pulsefade {
   from {
-    opacity: 0.7;
-    width: 0;
+    opacity: 1;
+    transform: scale(1);
   }
   to {
-    opacity: 1;
-    width: 340px;
+    opacity: 0.95;
+    transform: scale(0.95);
   }
 }
 body::-webkit-scrollbar {
@@ -256,6 +256,19 @@ body .main-content-box .fixed-whatsapp-anchor {
   width: 145px;
   align-items: flex-end;
   display: none;
+}
+body .main-content-box .fixed-whatsapp-anchor.active .message {
+  transition: ease-out 0.2s;
+  opacity: 0;
+  transform: scale(0.5);
+  transform: translateY(15px);
+}
+body .main-content-box .fixed-whatsapp-anchor.active .whatsapp-img {
+  animation: pulsefade 0.6s infinite alternate ease-in-out;
+}
+body .main-content-box .fixed-whatsapp-anchor > .message {
+  margin-bottom: 10px;
+  transition: ease-in 0.2s;
 }
 body .main-content-box .rigth-bottom-btn {
   position: fixed;

@@ -17,6 +17,26 @@ body{
             width: 145px;
             align-items: flex-end;
             display: none;
+
+            &.active{
+
+                .message{
+                    transition: ease-out .2s;
+                    opacity: 0;
+                    transform: scale(.5);
+                    transform: translateY(15px);
+                }
+
+                .whatsapp-img{
+                    animation: pulsefade .6s infinite alternate ease-in-out;
+                    
+                }
+            }
+
+            > .message{
+                margin-bottom: 10px;
+                transition: ease-in .2s;
+            }
         }
 
         .rigth-bottom-btn{

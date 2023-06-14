@@ -1,10 +1,10 @@
-@keyframes validation{
+@keyframes pulsefade{
     from{
-        opacity: .7;
-        width: 0;
+        opacity: 1;
+        transform: scale(1);
     }
     to{
-        opacity: 1;
-        width: 340px;
+        opacity: .95;
+        transform: scale(.95);
     }
 }
