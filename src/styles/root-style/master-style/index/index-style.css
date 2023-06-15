@@ -427,6 +427,7 @@ body .main-content-box .imgs-panel .container .frame:hover .panel-img {
 body .main-content-box .imgs-panel .container .frame .panel-img {
   transition: ease 0.3s;
   filter: brightness(90%);
+  transform: scale(1.008);
   height: 100%;
 }
 
