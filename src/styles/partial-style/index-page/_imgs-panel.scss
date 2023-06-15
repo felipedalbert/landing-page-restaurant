@@ -2,27 +2,33 @@ body{
 
     .main-content-box{
 
+        
         .imgs-panel{
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            background-color: $palette-3;
+            overflow: hidden;
 
-            .frame{
-                overflow: hidden;
+            .container{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                background-color: $palette-3;
+                max-width: unset;
 
-                &:hover .panel-img{
-                    transform: scale(1.04);
-                    filter: brightness(100%);
-                }
-
-                .panel-img{
-                    transition: ease .3s;
-                    filter: brightness(90%);
+                .frame{
                     height: 100%;
+                    overflow: hidden;
+
+                    &:hover .panel-img{
+                        transform: scale(1.04);
+                        filter: brightness(100%);
+                    }
+
+                    .panel-img{
+                        transition: ease .3s;
+                        filter: brightness(90%);
+                        height: 100%;
+                    }
                 }
- 
+
             }
         }
     }
-
 }

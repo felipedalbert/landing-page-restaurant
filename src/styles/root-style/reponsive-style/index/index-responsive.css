@@ -51,4 +51,136 @@
     -moz-column-gap: 50px;
          column-gap: 50px;
   }
+}
+@media (max-width: 1024px) {
+  body .main-content-box .back-to-top-btn {
+    display: none;
+  }
+  body .main-content-box .fixed-whatsapp-anchor {
+    display: flex;
+    bottom: 20px;
+  }
+  body .main-content-box .title-box {
+    text-align: center;
+  }
+  body .main-content-box .title-box .section-title {
+    margin-bottom: -5px;
+  }
+  body .main-content-box .title-box .underline-title {
+    display: inline-block;
+  }
+  body .main-content-box .container:not(.benefits .container, .imgs-panel .container) {
+    max-width: 768px;
+    flex-direction: column;
+  }
+  body .main-content-box header .container {
+    position: static;
+  }
+  body .main-content-box header .container .navigation {
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: -100vw;
+    right: 0;
+    transition: ease-out 0.2s;
+  }
+  body .main-content-box header .container .navigation.active {
+    transition: ease 0.3s;
+    left: 0;
+  }
+  body .main-content-box header .container .navigation ul {
+    display: flex;
+    flex-direction: column;
+  }
+  body .main-content-box header .container .navigation ul li {
+    margin-bottom: 40px;
+  }
+  body .main-content-box header .container .navigation ul li a {
+    font-size: 32px;
+  }
+  body .main-content-box header .container .navigation ul li:nth-child(5) {
+    margin-bottom: unset;
+  }
+  body .main-content-box header .container .navigation ul li:last-child {
+    display: none;
+  }
+  body .main-content-box header .container .navigation .close-menu-btn {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  body .main-content-box header .container .navigation .close-menu-btn img {
+    width: 32px;
+    height: 52px;
+    color: red;
+  }
+  body .main-content-box header .container .open-menu-btn {
+    display: block;
+  }
+  body .main-content-box section:not(.imgs-panel) {
+    padding-inline: 20px;
+  }
+  body .main-content-box .benefits .container .benefit {
+    transform: scale(0.92);
+    text-align: center;
+  }
+  body .main-content-box .benefits .container .benefit.garage {
+    max-width: 140px;
+  }
+  body .main-content-box .benefits .container .benefit.dessert img {
+    margin-top: -10px;
+  }
+  body .main-content-box .benefits .container .benefit.dessert p {
+    margin-top: 34px;
+  }
+  body .main-content-box .benefits .container .benefit.agreement {
+    max-width: 180px;
+  }
+  body .main-content-box .benefits .container .benefit.free-wifi {
+    max-width: 84px;
+  }
+  body .main-content-box .benefits .container .benefit.hall-rent {
+    max-width: 118px;
+  }
+  body .main-content-box .about-us .container {
+    padding-top: 80px;
+    background: url(../../../../images/section-images/about-us/complete-s-letter-bg.png) no-repeat;
+    background-size: 450px;
+    background-position: center -25px;
+  }
+  body .main-content-box .about-us .container .side-images {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .main-content-box .about-us .container .side-images img {
+    width: 355px;
+    height: 250px;
+    top: 0;
+    bottom: 0;
+    position: static;
+  }
+  body .main-content-box .about-us .container .side-text > p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  body .main-content-box .about-us .container .side-text .about-us-btn-links {
+    justify-content: center;
+    gap: 24px;
+  }
+  body .main-content-box .imgs-panel {
+    width: 200vw;
+    overflow: scroll;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */

@@ -107,3 +107,135 @@
         }
     }
 }
+
+@media (max-width: 1024px){
+    body{
+
+        .main-content-box{
+
+            .back-to-top-btn{
+                display: none;
+            }
+
+            .fixed-whatsapp-anchor{
+                display: flex;
+                bottom: 20px;
+            }
+
+            .title-box{
+                text-align: center;
+
+                .section-title{
+                    margin-bottom: -5px;
+                }
+
+                .underline-title{
+                    display: inline-block;
+                }
+            }
+            
+            .container:not(.benefits .container, .imgs-panel .container){
+                max-width: 768px;
+                flex-direction: column;
+            }
+
+            header{
+
+                @import '../../../../partial-style/float-components/mobile-menu';
+            }
+
+            section:not(.imgs-panel){
+                padding-inline: 20px;
+
+                
+            }
+
+            .benefits{   
+
+                .container{
+
+                    .benefit{
+                        
+                        transform: scale(.92);
+                        text-align: center;
+
+                        &.garage{
+                            max-width: 140px;
+                        }
+
+                        &.dessert{
+                            img{
+                                margin-top: -10px;
+                            }
+
+                            p{
+                                margin-top: 34px;
+                            }
+                        }
+
+                        &.agreement{
+                            max-width: 180px;
+                        }
+
+                        &.free-wifi{
+                            max-width: 84px;
+                        }
+
+                        &.hall-rent{
+                            max-width: 118px;
+                        }
+                    }
+                }
+            }
+
+            .about-us{
+
+                .container{
+                    padding-top: 80px;
+                    background: url(../../../../images/section-images/about-us/complete-s-letter-bg.png) no-repeat;
+                    background-size: 450px;
+                    background-position: center -25px;
+
+                    .side-images{
+                        height: 400px;
+                        width: 100%;
+                        margin-bottom: 90px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        img{
+                            
+                            width: 355px;
+                            height: 250px;
+                            top: 0;
+                            bottom: 0;
+                            position: static;
+    
+                        }
+                    }
+
+                    .side-text{
+                        
+                        > p{
+                            width: 100%;
+                            text-align: center;
+                            margin-bottom: 30px;
+                        }
+
+                        .about-us-btn-links{
+                            justify-content: center;
+                            gap: 24px;
+                        }
+                    }
+                }
+            }
+
+            .imgs-panel{
+                
+                width: 200vw;
+                overflow: scroll;
+            }
+        }
+    }
+}

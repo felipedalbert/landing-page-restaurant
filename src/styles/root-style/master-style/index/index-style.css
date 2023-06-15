@@ -408,18 +408,23 @@ body .main-content-box .about-us .container .side-text .about-us-btn-links {
 }
 
 body .main-content-box .imgs-panel {
+  overflow: hidden;
+}
+body .main-content-box .imgs-panel .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   background-color: #ffe9ea;
+  max-width: unset;
 }
-body .main-content-box .imgs-panel .frame {
+body .main-content-box .imgs-panel .container .frame {
+  height: 100%;
   overflow: hidden;
 }
-body .main-content-box .imgs-panel .frame:hover .panel-img {
+body .main-content-box .imgs-panel .container .frame:hover .panel-img {
   transform: scale(1.04);
   filter: brightness(100%);
 }
-body .main-content-box .imgs-panel .frame .panel-img {
+body .main-content-box .imgs-panel .container .frame .panel-img {
   transition: ease 0.3s;
   filter: brightness(90%);
   height: 100%;
