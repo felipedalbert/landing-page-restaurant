@@ -8,3 +8,14 @@
         transform: scale(.95);
     }
 }
+
+@keyframes movearrow{
+    from{
+        transform: translateX(-0.2em);
+        opacity: .4;
+    }
+    to{
+        transform: translateX(0.2em);
+        opacity: .9;
+    }
+}

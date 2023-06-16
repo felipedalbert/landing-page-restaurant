@@ -35,6 +35,16 @@ html {
     transform: scale(0.95);
   }
 }
+@keyframes movearrow {
+  from {
+    transform: translateX(-0.2em);
+    opacity: 0.4;
+  }
+  to {
+    transform: translateX(0.2em);
+    opacity: 0.9;
+  }
+}
 body::-webkit-scrollbar {
   width: 5px;
 }

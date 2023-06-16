@@ -69,7 +69,7 @@
   body .main-content-box .title-box .underline-title {
     display: inline-block;
   }
-  body .main-content-box .container:not(.benefits .container, .imgs-panel .container) {
+  body .main-content-box .container:not(header .container, .benefits .container, .imgs-panel .container) {
     max-width: 768px;
     flex-direction: column;
   }
@@ -124,6 +124,9 @@
   body .main-content-box header .container .open-menu-btn {
     display: block;
   }
+  body .main-content-box header .container {
+    max-width: 768px;
+  }
   body .main-content-box section:not(.imgs-panel) {
     padding-inline: 20px;
   }
@@ -150,15 +153,15 @@
     max-width: 118px;
   }
   body .main-content-box .about-us .container {
-    padding-top: 80px;
+    padding-top: 70px;
     background: url(../../../../images/section-images/about-us/complete-s-letter-bg.png) no-repeat;
-    background-size: 450px;
-    background-position: center -25px;
+    background-size: 410px;
+    background-position: center -10px;
   }
   body .main-content-box .about-us .container .side-images {
     height: 400px;
     width: 100%;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -177,10 +180,23 @@
   }
   body .main-content-box .about-us .container .side-text .about-us-btn-links {
     justify-content: center;
-    gap: 24px;
+    gap: 20px;
+  }
+  body .main-content-box .about-us .container .side-text .about-us-btn-links .primary-btn {
+    width: 198px;
   }
   body .main-content-box .imgs-panel {
-    width: 200vw;
     overflow: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  body .main-content-box .imgs-panel::after {
+    content: url(../../../../images/section-images/imgs-panel/arrow-right.svg);
+    position: absolute;
+    z-index: 2;
+    left: 48.2%;
+    margin-top: -50px;
+  }
+  body .main-content-box .imgs-panel .container {
+    width: 200vw;
   }
 }/*# sourceMappingURL=index-responsive.css.map */

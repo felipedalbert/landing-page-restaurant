@@ -4,17 +4,23 @@ body{
 
         
         .imgs-panel{
-            overflow: hidden;
 
+            &::after{
+                animation: movearrow .6s infinite alternate ease-in-out;
+            }
+            
             .container{
                 display: grid;
                 grid-template-columns: repeat(4, 1fr);
                 background-color: $palette-3;
                 max-width: unset;
 
+                
+
                 .frame{
                     height: 100%;
                     overflow: hidden;
+                    scroll-snap-align: start;
 
                     &:hover .panel-img{
                         transform: scale(1.04);
