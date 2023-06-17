@@ -107,3 +107,51 @@
         }
     }
 }
+
+@media (max-width: 1024px){
+    body{
+
+        .main-content-box{
+
+            .back-to-top-btn{
+                display: none;
+            }
+
+            .fixed-whatsapp-anchor{
+                display: flex;
+                bottom: 20px;
+            }
+
+            .title-box{
+                text-align: center;
+
+                .section-title{
+                    margin-bottom: -5px;
+                }
+
+                .underline-title{
+                    display: inline-block;
+                }
+            }
+            
+
+            .container:not(header .container, .benefits .container, .imgs-panel .container){
+                max-width: 768px;
+                flex-direction: column;
+            }
+
+            header{
+
+                @import '../../../../partial-style/float-components/mobile-menu';
+
+                .container{
+                    max-width: 768px;
+                }
+            }
+
+            section:not(.imgs-panel){
+                padding-inline: 20px;
+            }    
+        }
+    }
+}
