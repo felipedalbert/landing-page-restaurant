@@ -234,7 +234,40 @@
                         }
                     }
                 }
-            }  
+            }
+
+            .imgs-panel{
+                overflow: scroll;
+                scroll-snap-type: x mandatory;
+
+
+                &::after{
+                    content: url(../../../../images/section-images/imgs-panel/arrow-right.svg);
+                    position: absolute;
+                    z-index: 1;
+                    left: 47.5%;
+                    margin-top: -50px;
+                }
+
+
+                .container{
+                    width: 200vw;
+                    
+                    .frame{
+                        
+                        &:hover .panel-img{
+                            transform: scale(1.008);
+                        }
+
+                        .panel-img{
+                            filter: brightness(100%);
+                        }
+                    }
+                }
+                
+            }
+
+            
         }
     }
 }

@@ -185,4 +185,24 @@
   body .main-content-box .about-us .container .side-text .about-us-btn-links .primary-btn {
     width: 198px;
   }
+  body .main-content-box .imgs-panel {
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  body .main-content-box .imgs-panel::after {
+    content: url(../../../../images/section-images/imgs-panel/arrow-right.svg);
+    position: absolute;
+    z-index: 1;
+    left: 47.5%;
+    margin-top: -50px;
+  }
+  body .main-content-box .imgs-panel .container {
+    width: 200vw;
+  }
+  body .main-content-box .imgs-panel .container .frame:hover .panel-img {
+    transform: scale(1.008);
+  }
+  body .main-content-box .imgs-panel .container .frame .panel-img {
+    filter: brightness(100%);
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
