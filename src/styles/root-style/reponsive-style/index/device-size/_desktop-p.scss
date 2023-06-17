@@ -325,6 +325,44 @@
                     }
                 }
             }
+
+            .faq{
+
+                .container{
+
+                    .searching-img{
+                        display: none;
+                    }
+
+                    .content-box{
+                        width: 100%;
+
+                        .accordion{
+                            width: 100%;
+
+                            .line-question{
+
+                                &:hover:not(.active){
+                                    h4{
+                                        color: unset;
+                                    }
+                                }
+
+                                .text-content{
+                                    width: 95%;
+                                }
+
+                                &:nth-child(3).active{
+
+                                    .text-content{
+                                        height: 248px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

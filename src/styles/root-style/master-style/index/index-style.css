@@ -559,11 +559,10 @@ body .main-content-box .faq .content-box .accordion .line-question.active .label
 body .main-content-box .faq .content-box .accordion .line-question:nth-child(even).active .text-content {
   height: 21px;
 }
-body .main-content-box .faq .content-box .accordion .line-question:nth-child(1).active .text-content {
+body .main-content-box .faq .content-box .accordion .line-question:nth-child(odd).active .text-content {
   height: 105px;
 }
 body .main-content-box .faq .content-box .accordion .line-question:nth-child(3).active .text-content {
-  height: 105px;
   overflow-y: scroll;
 }
 

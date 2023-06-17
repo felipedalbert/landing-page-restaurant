@@ -134,7 +134,7 @@ body{
                             }
                         }
                         
-                        &:nth-child(1).active{
+                        &:nth-child(odd).active{
 
                             .text-content{
                                 height: 105px;
@@ -144,7 +144,6 @@ body{
                         &:nth-child(3).active{
 
                             .text-content{
-                                height: 105px;
                                 overflow-y: scroll;
                             }
                         }

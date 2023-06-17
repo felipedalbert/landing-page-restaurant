@@ -242,4 +242,22 @@
     width: 90%;
     margin-bottom: 60px;
   }
+  body .main-content-box .faq .container .searching-img {
+    display: none;
+  }
+  body .main-content-box .faq .container .content-box {
+    width: 100%;
+  }
+  body .main-content-box .faq .container .content-box .accordion {
+    width: 100%;
+  }
+  body .main-content-box .faq .container .content-box .accordion .line-question:hover:not(.active) h4 {
+    color: unset;
+  }
+  body .main-content-box .faq .container .content-box .accordion .line-question .text-content {
+    width: 95%;
+  }
+  body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(3).active .text-content {
+    height: 248px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
