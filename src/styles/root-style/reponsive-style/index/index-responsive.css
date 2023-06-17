@@ -130,4 +130,26 @@
   body .main-content-box section:not(.imgs-panel) {
     padding-inline: 20px;
   }
+  body .main-content-box .benefits .container .benefit {
+    transform: scale(0.92);
+    text-align: center;
+  }
+  body .main-content-box .benefits .container .benefit.garage {
+    max-width: 140px;
+  }
+  body .main-content-box .benefits .container .benefit.dessert img {
+    margin-top: -10px;
+  }
+  body .main-content-box .benefits .container .benefit.dessert p {
+    margin-top: 34px;
+  }
+  body .main-content-box .benefits .container .benefit.agreement {
+    max-width: 180px;
+  }
+  body .main-content-box .benefits .container .benefit.free-wifi {
+    max-width: 84px;
+  }
+  body .main-content-box .benefits .container .benefit.hall-rent {
+    max-width: 118px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
