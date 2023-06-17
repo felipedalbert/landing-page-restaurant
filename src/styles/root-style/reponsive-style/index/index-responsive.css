@@ -205,4 +205,41 @@
   body .main-content-box .imgs-panel .container .frame .panel-img {
     filter: brightness(100%);
   }
+  body .main-content-box .delivery .container .info {
+    order: 1;
+  }
+  body .main-content-box .delivery .container .info .title-box {
+    margin-bottom: 20px;
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite {
+    justify-content: center;
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type::after {
+    margin-inline: 3px;
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
+    content: "....................................................................................................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
+    content: "...........................................................................................................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
+    content: "........................................................................................................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
+    content: ".....................................................................................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .separator {
+    display: none;
+  }
+  body .main-content-box .delivery .container .info .delivery-btn-links {
+    justify-content: center;
+  }
+  body .main-content-box .delivery .container .info .delivery-btn-links .whatsapp-container {
+    margin-right: 24px;
+  }
+  body .main-content-box .delivery .container .deliveryman-img {
+    width: 90%;
+    margin-bottom: 60px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
