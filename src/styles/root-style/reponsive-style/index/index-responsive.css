@@ -152,4 +152,37 @@
   body .main-content-box .benefits .container .benefit.hall-rent {
     max-width: 118px;
   }
+  body .main-content-box .about-us .container {
+    padding-top: 70px;
+    background: url(../../../../images/section-images/about-us/complete-s-letter-bg.png) no-repeat;
+    background-size: 410px;
+    background-position: center -10px;
+  }
+  body .main-content-box .about-us .container .side-images {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  body .main-content-box .about-us .container .side-images img {
+    width: 365px;
+    height: 250px;
+    top: 0;
+    bottom: 0;
+    position: static;
+  }
+  body .main-content-box .about-us .container .side-text > p {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  body .main-content-box .about-us .container .side-text .about-us-btn-links {
+    justify-content: center;
+    gap: 20px;
+  }
+  body .main-content-box .about-us .container .side-text .about-us-btn-links .primary-btn {
+    width: 198px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */

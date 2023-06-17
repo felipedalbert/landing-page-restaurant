@@ -190,11 +190,51 @@
                 }
             }
 
+            .about-us{
 
+                .container{
+                    padding-top: 70px;
+                    background: url(../../../../images/section-images/about-us/complete-s-letter-bg.png) no-repeat;
+                    background-size: 410px;
+                    background-position: center -10px;
 
-            
+                    .side-images{
+                        height: 400px;
+                        width: 100%;
+                        margin-bottom: 70px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
 
-            
+                        img{
+                            width: 365px;
+                            height: 250px;
+                            top: 0;
+                            bottom: 0;
+                            position: static;
+    
+                        }
+                    }
+
+                    .side-text{
+                        
+                        > p{
+                            width: 100%;
+                            text-align: center;
+                            margin-bottom: 30px;
+                        }
+
+                        .about-us-btn-links{
+                            justify-content: center;
+                            gap: 20px;
+
+                            .primary-btn{
+                                width: 198px;
+                            }
+                        }
+                    }
+                }
+            }  
         }
     }
 }
