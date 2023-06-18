@@ -551,7 +551,7 @@ body .main-content-box .faq .content-box .accordion .line-question.active .label
 }
 body .main-content-box .faq .content-box .accordion .line-question.active .label .arrow-down {
   transform: rotate(0);
-  transform: translate(-30%, 25%);
+  transform: translate(-60%, 25%);
 }
 body .main-content-box .faq .content-box .accordion .line-question.active .label h4 {
   color: #ea1d2c;
