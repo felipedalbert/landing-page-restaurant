@@ -137,8 +137,12 @@
 
             .container:not(header .container, .benefits .container, .imgs-panel .container){
                 max-width: 768px;
-                flex-direction: column;
+                
+                &:not(.contact .container, footer .container){
+                    flex-direction: column
+                }
             }
+
 
             header{
 
@@ -367,7 +371,6 @@
             .contact{
 
                 .container{
-                    flex-direction: row !important;
 
                     .side-form{
                         order: 1;
@@ -435,6 +438,32 @@
                             width: 450px;
                             height: 332px;
                         }
+                    }
+                }
+            }
+
+            footer{
+
+                .container{
+                    
+                    justify-content: center !important;
+
+                    img{
+                        flex: 1 1 100%;
+                        margin-bottom: 20px;
+                    }
+
+                    .opening-hours{
+                        flex: 1 1 content;
+                    }
+
+                    .social{
+                        flex: 1 1 47%;
+                        column-gap: 70px;
+                    }
+
+                    .copyright{
+                        margin-top: 20px;
                     }
                 }
             }
