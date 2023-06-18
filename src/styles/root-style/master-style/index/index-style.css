@@ -607,9 +607,11 @@ body .main-content-box .contact .side-form .form-container .user-info-container 
 }
 body .main-content-box .contact .side-form .form-container .user-info-container input::-moz-placeholder, body .main-content-box .contact .side-form .form-container .user-info-container textarea::-moz-placeholder {
   color: #b3b3b3;
+  font-size: 1.5rem;
 }
 body .main-content-box .contact .side-form .form-container .user-info-container input::placeholder, body .main-content-box .contact .side-form .form-container .user-info-container textarea::placeholder {
   color: #b3b3b3;
+  font-size: 1.5rem;
 }
 body .main-content-box .contact .side-form .form-container .submit-container {
   display: flex;
