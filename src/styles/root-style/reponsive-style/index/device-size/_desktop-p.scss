@@ -81,6 +81,13 @@
                     .form-container{
                         margin-top: 28px;
                         width: 436px;
+
+                        .submit-container{
+
+                            .validation-alert{
+                                width: 328px;
+                            }
+                        }
                     }
                 }
 
@@ -88,7 +95,7 @@
                     
                     iframe{
                         width: 470px;
-                        height: 320px;
+                        height: 350px;
                     }
                 }
                 
