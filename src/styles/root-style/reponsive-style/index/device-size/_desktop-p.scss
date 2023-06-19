@@ -396,7 +396,7 @@
                                 }
 
                                 .validation-alert{
-                                    width: 96%;
+                                    width: 97%;
                                     padding: 12px 22px;
                                     top: 105px;
                                     position: fixed;
@@ -404,7 +404,7 @@
                                     z-index: 1;
                                     
                                     &.active{
-                                        left: 18px;
+                                        left: 1.5vw;
                                     }
                                 
                                 }
@@ -413,9 +413,10 @@
                     }
     
                     .side-address{
+                        width: 450px;
                         
                         iframe{
-                            width: 450px;
+                            width: 100%;
                             height: 332px;
                         }
                     }

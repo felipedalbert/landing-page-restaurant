@@ -280,7 +280,7 @@
     width: 100%;
   }
   body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert {
-    width: 96%;
+    width: 97%;
     padding: 12px 22px;
     top: 105px;
     position: fixed;
@@ -288,10 +288,13 @@
     z-index: 1;
   }
   body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert.active {
-    left: 18px;
+    left: 1.5vw;
+  }
+  body .main-content-box .contact .container .side-address {
+    width: 450px;
   }
   body .main-content-box .contact .container .side-address iframe {
-    width: 450px;
+    width: 100%;
     height: 332px;
   }
   body .main-content-box footer .container {
