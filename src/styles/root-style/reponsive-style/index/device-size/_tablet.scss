@@ -69,6 +69,33 @@
                     }
                 }
             }
+
+            .contact{
+
+                .container{
+
+                    .side-form{
+
+                        .form-container{
+                            margin-top: 15px;
+                            width: 260px;
+
+                        }
+                    }
+    
+                    .side-address{
+                        width: 350px;
+
+                        iframe{
+                            height: 332px;
+                        }
+
+                        p{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
