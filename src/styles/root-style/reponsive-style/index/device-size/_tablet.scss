@@ -1,0 +1,12 @@
+@media (max-width: 820px){
+
+    body{
+
+        .main-content-box{
+
+            .container:not(.benefits .container, .imgs-panel .container){
+                max-width: 640px;
+            }
+        }
+    }
+}
