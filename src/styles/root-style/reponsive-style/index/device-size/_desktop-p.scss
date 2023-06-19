@@ -135,10 +135,10 @@
             }
             
 
-            .container:not(header .container, .benefits .container, .imgs-panel .container){
+            .container:not(.benefits .container, .imgs-panel .container){
                 max-width: 768px;
                 
-                &:not(.contact .container, footer .container){
+                &:not(.contact .container, header .container, footer .container){
                     flex-direction: column
                 }
             }
@@ -148,9 +148,6 @@
 
                 @import '../../../../partial-style/float-components/mobile-menu';
 
-                .container{
-                    max-width: 768px;
-                }
             }
 
             section:not(.imgs-panel){
@@ -446,7 +443,7 @@
 
                 .container{
                     
-                    justify-content: center !important;
+                    justify-content: center;
 
                     img{
                         flex: 1 1 100%;
