@@ -7,6 +7,37 @@
             .container:not(.benefits .container, .imgs-panel .container){
                 max-width: 640px;
             }
+
+            .about-us{
+
+                .container{
+                    padding-top: 120px;
+                    background-position: center -20px;
+                    background-size: 440px;
+
+                    .side-images{
+                        position: relative;
+                        height: 330px;
+                        margin-bottom: 90px;
+
+                        img{
+                            position: absolute;
+                            height: 250px;
+                            top: unset;
+                            bottom: unset;
+    
+                            &:first-child{
+                                top: 0;
+                            }
+    
+                            &:last-child{
+                                bottom: 0;
+                                right: 0;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -320,4 +320,27 @@
   body .main-content-box .container:not(.benefits .container, .imgs-panel .container) {
     max-width: 640px;
   }
+  body .main-content-box .about-us .container {
+    padding-top: 120px;
+    background-position: center -20px;
+    background-size: 440px;
+  }
+  body .main-content-box .about-us .container .side-images {
+    position: relative;
+    height: 330px;
+    margin-bottom: 90px;
+  }
+  body .main-content-box .about-us .container .side-images img {
+    position: absolute;
+    height: 250px;
+    top: unset;
+    bottom: unset;
+  }
+  body .main-content-box .about-us .container .side-images img:first-child {
+    top: 0;
+  }
+  body .main-content-box .about-us .container .side-images img:last-child {
+    bottom: 0;
+    right: 0;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
