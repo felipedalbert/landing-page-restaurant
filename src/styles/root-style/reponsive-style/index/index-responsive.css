@@ -282,25 +282,13 @@
   body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert {
     width: 96%;
     padding: 12px 22px;
-    top: 110px;
+    top: 105px;
     position: fixed;
     left: -100%;
-    z-index: 2;
+    z-index: 1;
   }
   body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert.active {
-    left: 16px;
-    opacity: 1;
-    transition: ease 0.3s;
-  }
-  body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert.active.error-validation {
-    background-color: #fff833;
-  }
-  body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert.active.correct-validation {
-    background-color: #21d84c;
-  }
-  body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert i {
-    cursor: pointer;
-    font-size: 1.5rem;
+    left: 18px;
   }
   body .main-content-box .contact .container .side-address iframe {
     width: 450px;
