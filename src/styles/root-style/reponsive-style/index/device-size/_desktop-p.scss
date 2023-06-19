@@ -363,7 +363,7 @@
                                 &:nth-child(3).active{
 
                                     .text-content{
-                                        height: 248px;
+                                        height: max-content;
                                     }
                                 }
                             }
