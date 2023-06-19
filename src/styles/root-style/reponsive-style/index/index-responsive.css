@@ -343,4 +343,16 @@
     bottom: 0;
     right: 0;
   }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
+    content: "..............................................................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
+    content: ".....................................................................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
+    content: "..................................................................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
+    content: "...............................................................................................................";
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
