@@ -368,4 +368,25 @@
   body .main-content-box .contact .container .side-address p {
     font-size: 13px;
   }
+  body .main-content-box footer .container {
+    text-align: center;
+  }
+  body .main-content-box footer .container p {
+    margin-bottom: 16px;
+  }
+  body .main-content-box footer .container .opening-hours {
+    flex: 1 1 100%;
+  }
+  body .main-content-box footer .container .social {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "social-media-text" "email" "icons";
+    flex: 1 1 100%;
+  }
+  body .main-content-box footer .container .social .email {
+    margin-bottom: 16px;
+  }
+  body .main-content-box footer .container .copyright {
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
