@@ -572,4 +572,26 @@
   body .main-content-box .benefits .container {
     width: 800px;
   }
+  body .main-content-box .about-us .container {
+    padding-top: 120px;
+    background-size: 390px;
+    background-position: center -10px;
+  }
+  body .main-content-box .about-us .container .side-images {
+    width: 400px;
+    height: 280px;
+    margin-bottom: 90px;
+  }
+  body .main-content-box .about-us .container .side-images img {
+    width: 233px;
+    height: 160px;
+  }
+  body .main-content-box .about-us .container .side-text .about-us-btn-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main-content-box .about-us .container .side-text .about-us-btn-links .primary-btn.transparent {
+    width: 225px;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */

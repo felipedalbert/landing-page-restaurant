@@ -311,6 +311,40 @@
                     width: 800px;
                 }
             }
+
+            .about-us{
+
+                .container{
+                    padding-top: 120px;
+                    background-size: 390px;
+                    background-position: center -10px;
+
+                    .side-images{
+                        width: 400px;
+                        height: 280px;
+                        margin-bottom: 90px;
+
+                        img{
+                            width: 233px;
+                            height: 160px;
+                        }
+                    }
+
+                    .side-text{
+                        
+
+                        .about-us-btn-links{
+                            flex-direction: column;
+                            align-items: center;
+                            
+                            .primary-btn.transparent{
+                                width: 225px;
+                                justify-content: center;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
