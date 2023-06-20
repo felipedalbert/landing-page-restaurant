@@ -447,4 +447,42 @@
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
     content: ".......................................................................";
   }
+  body .main-content-box .contact {
+    background-image: url(../../../../images/section-images/contact/responsive/r-contact-bg.png);
+  }
+  body .main-content-box .contact .container .side-form {
+    order: unset;
+  }
+  body .main-content-box .contact .container .side-form .title-box {
+    margin-top: 0;
+  }
+  body .main-content-box .contact .container .side-form .title-box .section-title {
+    margin-bottom: -10px;
+  }
+  body .main-content-box .contact .container .side-form .form-container {
+    margin-top: 15px;
+    margin-bottom: 55px;
+    width: 100%;
+  }
+  body .main-content-box .contact .container .side-form .form-container .user-info-container textarea {
+    height: 120px;
+  }
+  body .main-content-box .contact .container .side-form .form-container .submit-container {
+    justify-content: center;
+  }
+  body .main-content-box .contact .container .side-form .form-container .submit-container button {
+    width: 170px;
+  }
+  body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert {
+    width: 97%;
+  }
+  body .main-content-box .contact .container .side-address {
+    width: 100%;
+  }
+  body .main-content-box .contact .container .side-address iframe {
+    height: 360px;
+  }
+  body .main-content-box .contact .container .side-address p {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
