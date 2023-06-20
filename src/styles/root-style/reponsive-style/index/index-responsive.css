@@ -72,6 +72,9 @@
   body .main-content-box .title-box .underline-title {
     display: inline-block;
   }
+  body .main-content-box .container {
+    font-size: 1.6rem;
+  }
   body .main-content-box .container:not(.benefits .container, .imgs-panel .container) {
     max-width: 768px;
   }
@@ -262,6 +265,9 @@
   body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(3).active .text-content {
     height: -moz-max-content;
     height: max-content;
+  }
+  body .main-content-box .contact .container {
+    font-size: 1.5rem;
   }
   body .main-content-box .contact .container .side-form {
     order: 1;

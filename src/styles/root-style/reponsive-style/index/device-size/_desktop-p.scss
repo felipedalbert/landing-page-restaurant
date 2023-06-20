@@ -116,6 +116,7 @@
 }
 
 @media (max-width: 1024px){
+    
     body{
 
         .main-content-box{
@@ -142,19 +143,23 @@
             }
             
 
-            .container:not(.benefits .container, .imgs-panel .container){
+            .container{
+                font-size: 1.6rem;
+
+                &:not(.benefits .container, .imgs-panel .container){
                 max-width: 768px;
                 
-                &:not(.contact .container, header .container, footer .container){
-                    flex-direction: column
+                    &:not(.contact .container, header .container, footer .container){
+                        flex-direction: column
+                    }
                 }
             }
+            
 
 
             header{
 
                 @import '../../../../partial-style/float-components/mobile-menu';
-
             }
 
             section:not(.imgs-panel){
@@ -375,7 +380,8 @@
             .contact{
 
                 .container{
-
+                    font-size: 1.5rem;
+                    
                     .side-form{
                         order: 1;
 
