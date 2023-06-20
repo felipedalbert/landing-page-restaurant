@@ -561,4 +561,12 @@
   body .main-content-box .container:not(header .container, .benefits .container, .imgs-panel .container) {
     max-width: 425px;
   }
+  body .main-content-box .carousel .conversion-text .title {
+    font-size: 4rem;
+    margin-bottom: 16px;
+  }
+  body .main-content-box .carousel .conversion-text .description {
+    font-size: 1.6rem;
+    width: 345px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
