@@ -409,4 +409,13 @@
   body .main-content-box .container:not(header .container, .benefits .container, .imgs-panel .container):not(header .container, footer .container) {
     flex-direction: column;
   }
+  body .main-content-box .benefits {
+    overflow-x: scroll;
+  }
+  body .main-content-box .benefits .container {
+    width: 130vw;
+  }
+  body .main-content-box .benefits .container .benefit {
+    transform: scale(1);
+  }
 }/*# sourceMappingURL=index-responsive.css.map */

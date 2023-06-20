@@ -11,6 +11,18 @@
                     flex-direction: column
                 }
             }
+
+            .benefits{
+                overflow-x: scroll;
+
+                .container{
+                    width: 130vw;
+
+                    .benefit{
+                        transform: scale(1);
+                    }
+                }
+            }
         }
     }
 }
