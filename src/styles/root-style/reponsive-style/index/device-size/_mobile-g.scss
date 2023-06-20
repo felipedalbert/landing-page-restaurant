@@ -1,0 +1,16 @@
+@media (max-width: 680px){
+
+    body{
+
+        .main-content-box{
+
+            .container:not(header .container, .benefits .container, .imgs-panel .container){
+                max-width: 550px;
+
+                &:not(header .container, footer .container){
+                    flex-direction: column
+                }
+            }
+        }
+    }
+}

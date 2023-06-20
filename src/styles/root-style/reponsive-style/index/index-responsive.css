@@ -401,4 +401,12 @@
   body .main-content-box footer .container .copyright {
     margin-top: 10px;
   }
+}
+@media (max-width: 680px) {
+  body .main-content-box .container:not(header .container, .benefits .container, .imgs-panel .container) {
+    max-width: 550px;
+  }
+  body .main-content-box .container:not(header .container, .benefits .container, .imgs-panel .container):not(header .container, footer .container) {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
