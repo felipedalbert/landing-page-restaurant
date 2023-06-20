@@ -136,7 +136,6 @@
     padding-inline: 20px;
   }
   body .main-content-box .benefits .container .benefit {
-    transform: scale(0.92);
     text-align: center;
   }
   body .main-content-box .benefits .container .benefit.garage {
@@ -329,6 +328,9 @@
 @media (max-width: 818px) {
   body .main-content-box .container:not(.benefits .container, .imgs-panel .container) {
     max-width: 640px;
+  }
+  body .main-content-box .benefits .container .benefit {
+    transform: scale(0.92);
   }
   body .main-content-box .about-us .container {
     padding-top: 120px;
