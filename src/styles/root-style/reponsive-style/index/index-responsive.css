@@ -534,4 +534,16 @@
   body .main-content-box .imgs-panel .container {
     width: 400vw;
   }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
+    content: ".......................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
+    content: "..............................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
+    content: "..........................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
+    content: ".......................................................";
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
