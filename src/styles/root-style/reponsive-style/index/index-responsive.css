@@ -483,7 +483,7 @@
     height: 360px;
   }
   body .main-content-box .contact .container .side-address p {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 548px) {
@@ -552,5 +552,13 @@
   }
   body .main-content-box footer .container .copyright i {
     display: none;
+  }
+}
+@media (max-width: 500px) {
+  body .main-content-box .container {
+    font-size: 1.4rem;
+  }
+  body .main-content-box .container:not(header .container, .benefits .container, .imgs-panel .container) {
+    max-width: 425px;
   }
 }/*# sourceMappingURL=index-responsive.css.map */

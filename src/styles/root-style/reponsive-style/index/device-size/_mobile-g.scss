@@ -129,7 +129,7 @@
                         }
 
                         p{
-                            font-size: 16px;
+                            font-size: 1.6rem;
                         }
                     }
                 }        
@@ -269,6 +269,23 @@
                             display: none;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px){
+
+    body{
+
+        .main-content-box{
+
+            .container{
+                font-size: 1.4rem;
+
+                &:not(header .container, .benefits .container, .imgs-panel .container){
+                    max-width: 425px;
                 }
             }
         }
