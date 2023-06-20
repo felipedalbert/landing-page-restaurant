@@ -333,7 +333,7 @@ body .main-content-box .carousel .conversion-text {
   align-items: center;
   color: #ffffff;
   position: absolute;
-  top: 350px;
+  top: calc(50% + 45px);
   transform: translateY(-50%);
 }
 body .main-content-box .carousel .conversion-text .title {
@@ -346,12 +346,12 @@ body .main-content-box .carousel .conversion-text .description {
   font-weight: 600;
   width: 465px;
   text-align: center;
-  margin-bottom: 39px;
+  margin-bottom: 38px;
 }
 body .main-content-box .carousel .indicators {
   display: flex;
   position: absolute;
-  bottom: 32px;
+  bottom: 28px;
 }
 body .main-content-box .carousel .indicators .indicator {
   width: 72px;
