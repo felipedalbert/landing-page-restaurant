@@ -594,4 +594,11 @@
     width: 225px;
     justify-content: center;
   }
+  body .main-content-box .delivery .container .info .delivery-btn-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main-content-box .delivery .container .info .delivery-btn-links .whatsapp-container {
+    margin-right: 0;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */

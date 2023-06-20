@@ -345,6 +345,24 @@
                     }
                 }
             }
+
+            .delivery{
+
+                .container{
+                    
+                    .info{
+
+                        .delivery-btn-links{
+                            flex-direction: column;
+                            align-items: center;
+
+                            .whatsapp-container{
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
