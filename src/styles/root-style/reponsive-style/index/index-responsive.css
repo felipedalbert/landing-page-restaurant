@@ -546,4 +546,11 @@
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
     content: ".......................................................";
   }
+  body .main-content-box footer .container .copyright {
+    display: flex;
+    flex-direction: column;
+  }
+  body .main-content-box footer .container .copyright i {
+    display: none;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */

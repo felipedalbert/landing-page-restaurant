@@ -256,6 +256,21 @@
                     }
                 }
             }
+
+            footer{
+
+                .container{
+
+                    .copyright{
+                        display: flex;
+                        flex-direction: column;
+
+                        i{
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
     }
 }
