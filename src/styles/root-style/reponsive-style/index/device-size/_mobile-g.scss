@@ -38,9 +38,7 @@
 
                         img{
                             width: 292px;
-                            height: 200px;
-                            
-                            
+                            height: 200px;   
                         }
                     }
                 }
@@ -115,6 +113,7 @@
 
                                 .validation-alert{
                                     width: 97%;
+                                    top: 100px;
                                 }
                             }
                         }
@@ -362,6 +361,34 @@
                         }
                     }
                 }
+            }
+
+            .contact{
+                background-image: url(../../../../images/section-images/contact/responsive/r-contact-bg.png);
+
+                .container{
+
+                    .side-form{
+
+                        .form-container{
+
+                            .submit-container{
+
+                                .validation-alert{
+                                    width: 97%;
+                                    top: 95px;
+                                }
+                            }
+                        }
+                    }
+
+                    .side-address{
+
+                        p{
+                            font-size: 1.4rem;
+                        }
+                    }
+                }        
             }
         }
     }

@@ -475,6 +475,7 @@
   }
   body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert {
     width: 97%;
+    top: 100px;
   }
   body .main-content-box .contact .container .side-address {
     width: 100%;
@@ -600,5 +601,15 @@
   }
   body .main-content-box .delivery .container .info .delivery-btn-links .whatsapp-container {
     margin-right: 0;
+  }
+  body .main-content-box .contact {
+    background-image: url(../../../../images/section-images/contact/responsive/r-contact-bg.png);
+  }
+  body .main-content-box .contact .container .side-form .form-container .submit-container .validation-alert {
+    width: 97%;
+    top: 95px;
+  }
+  body .main-content-box .contact .container .side-address p {
+    font-size: 1.4rem;
   }
 }/*# sourceMappingURL=index-responsive.css.map */
