@@ -432,4 +432,19 @@
     width: 292px;
     height: 200px;
   }
+  body .main-content-box .delivery .container {
+    max-width: 500px;
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
+    content: ".......................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
+    content: "..............................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
+    content: "..........................................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
+    content: ".......................................................................";
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
