@@ -418,4 +418,18 @@
   body .main-content-box .benefits .container .benefit {
     transform: scale(1);
   }
+  body .main-content-box .about-us .container {
+    padding-top: 120px;
+    background-size: 440px;
+    background-position: center -20px;
+  }
+  body .main-content-box .about-us .container .side-images {
+    width: 500px;
+    height: 330px;
+    margin-bottom: 90px;
+  }
+  body .main-content-box .about-us .container .side-images img {
+    width: 292px;
+    height: 200px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */

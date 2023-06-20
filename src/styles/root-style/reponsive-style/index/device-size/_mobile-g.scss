@@ -23,6 +23,28 @@
                     }
                 }
             }
+
+            .about-us{
+
+                .container{
+                    padding-top: 120px;
+                    background-size: 440px;
+                    background-position: center -20px;
+
+                    .side-images{
+                        width: 500px;
+                        height: 330px;
+                        margin-bottom: 90px;
+
+                        img{
+                            width: 292px;
+                            height: 200px;
+                            
+                            
+                        }
+                    }
+                }
+            }
         }
     }
 }
