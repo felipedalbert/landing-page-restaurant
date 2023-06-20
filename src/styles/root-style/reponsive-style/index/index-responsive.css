@@ -490,4 +490,29 @@
   body .main-content-box .container:not(header .container, .benefits .container, .imgs-panel .container) {
     max-width: 500px;
   }
+  body .main-content-box .carousel {
+    height: 755px;
+  }
+  body .main-content-box .carousel .carousel-img.one {
+    background-image: url(../../../../images/section-images/carousel/responsive/r-bg-1.png);
+  }
+  body .main-content-box .carousel .carousel-img.two {
+    background-image: url(../../../../images/section-images/carousel/responsive/r-bg-2.png);
+  }
+  body .main-content-box .carousel .carousel-img.three {
+    background-image: url(../../../../images/section-images/carousel/responsive/r-bg-3.png);
+  }
+  body .main-content-box .carousel .carousel-img.four {
+    background-image: url(../../../../images/section-images/carousel/responsive/r-bg-4.png);
+  }
+  body .main-content-box .carousel .conversion-text .title {
+    font-size: 5.2rem;
+    margin-bottom: 16px;
+  }
+  body .main-content-box .carousel .conversion-text .description {
+    font-size: 2.2rem;
+  }
+  body .main-content-box .carousel .indicators .indicator {
+    width: 56px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */

@@ -147,6 +147,49 @@
             .container:not(header .container, .benefits .container, .imgs-panel .container){
                 max-width: 500px;
             }
+
+            .carousel{
+                height: 755px;
+
+                .carousel-img{
+        
+                    &.one{
+                        background-image: url(../../../../images/section-images/carousel/responsive/r-bg-1.png);
+                    }
+    
+                    &.two{
+                        background-image: url(../../../../images/section-images/carousel/responsive/r-bg-2.png);
+                    }
+    
+                    &.three{
+                        background-image: url(../../../../images/section-images/carousel/responsive/r-bg-3.png);
+                    }
+    
+                    &.four{
+                        background-image: url(../../../../images/section-images/carousel/responsive/r-bg-4.png);
+                    }
+                }
+    
+                .conversion-text{
+
+                    .title{
+                        font-size: 5.2rem;
+                        margin-bottom: 16px;
+                    }
+
+                    .description{
+                        font-size: 2.2rem;
+                    
+                    }
+                }
+
+                .indicators{
+
+                    .indicator{
+                        width: 56px;
+                    }
+                }
+            }
         }
     }
 }
