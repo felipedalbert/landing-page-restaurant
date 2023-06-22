@@ -785,4 +785,43 @@
   body .main-content-box footer {
     padding-top: 50px;
   }
+}
+@media (max-width: 338px) {
+  body .main-content-box .fixed-whatsapp-anchor {
+    transform: scale(0.8);
+    bottom: 3px;
+  }
+  body .main-content-box .benefits .container {
+    width: 600px;
+  }
+  body .main-content-box .benefits .container .benefit {
+    transform: scale(0.85);
+  }
+  body .main-content-box .carousel {
+    height: 100.5vh;
+  }
+  body .main-content-box .carousel .conversion-text .title {
+    font-size: 3.5rem;
+  }
+  body .main-content-box .carousel .conversion-text .description {
+    width: 280px;
+  }
+  body .main-content-box .carousel .indicators .indicator {
+    width: 52px;
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
+    content: "..............................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
+    content: ".....................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
+    content: "..................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
+    content: "...............";
+  }
+  body .main-content-box .contact .container .side-address iframe {
+    height: 300px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
