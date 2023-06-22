@@ -1,0 +1,140 @@
+@media (max-width:368px){
+
+    body{
+
+        .main-content-box{
+
+            .fixed-whatsapp-anchor{
+                transform: scale(.8);
+                bottom: 0;
+                right: 0;
+            }
+            
+            .title-box{
+
+                .section-title{
+                    max-width: 300px;
+                    margin: 0 auto;
+                }
+            }
+
+            .carousel{
+
+                .conversion-text{
+
+                    .title{
+                        font-size: 3.8rem;
+                    }
+
+                    .description{
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+
+            .benefits{
+
+                .container{
+                    width: 650px;
+
+                    .benefit{
+                        transform: scale(.9);
+
+                        &.garage{
+                            max-width: 120px;
+                        }
+
+                        &.hall-rent{
+                            max-width: 110px;
+                        }
+                    }
+                }
+            }
+
+            .about-us{
+
+                .container{
+                    padding-top: 90px;
+                    padding-bottom: 50px;
+                    background-size: 310px;
+                    background-position: center -10px;
+                    
+                    .side-images{
+                        width: 320px;
+                        height: 220px;
+                        justify-content: center;
+                        margin-bottom: 75px;
+
+                        img{
+                            width: 86%;
+                            height: 180px;
+                            position: static;
+                            
+                            &:first-child{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .delivery{
+                padding-block: 50px;
+
+                .container{
+                    
+                    .info{
+
+                        .marmite-prices{
+
+                            .marmite{
+
+                                .type.p::after{
+                                    content: '.....................................';
+                                }
+
+                                .type.m::after{
+                                    content: '............................................';
+                                }
+
+                                .type.g::after{
+                                    content: '.........................................';
+                                }
+
+                                .type.kf::after{
+                                    content: '.....................';
+                                }
+                            }
+                        }
+                    }
+                    
+                    .deliveryman-img{
+                        margin-bottom: 40px;
+                    }
+                }
+            }
+
+            .faq{
+                padding-block: 50px;
+            }
+
+            .contact{
+                padding-block: 50px;
+
+                .container{
+
+                    .side-address{
+
+                        iframe{
+                            height: 320px;
+                        }
+                    }
+                } 
+            }
+            
+            footer{
+                padding-top: 50px;
+            }
+        }
+    }
+}

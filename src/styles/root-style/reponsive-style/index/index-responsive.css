@@ -706,4 +706,83 @@
   body .main-content-box .delivery .container .deliveryman-img {
     width: 90vw;
   }
+}
+@media (max-width: 368px) {
+  body .main-content-box .fixed-whatsapp-anchor {
+    transform: scale(0.8);
+    bottom: 0;
+    right: 0;
+  }
+  body .main-content-box .title-box .section-title {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  body .main-content-box .carousel .conversion-text .title {
+    font-size: 3.8rem;
+  }
+  body .main-content-box .carousel .conversion-text .description {
+    font-size: 1.5rem;
+  }
+  body .main-content-box .benefits .container {
+    width: 650px;
+  }
+  body .main-content-box .benefits .container .benefit {
+    transform: scale(0.9);
+  }
+  body .main-content-box .benefits .container .benefit.garage {
+    max-width: 120px;
+  }
+  body .main-content-box .benefits .container .benefit.hall-rent {
+    max-width: 110px;
+  }
+  body .main-content-box .about-us .container {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    background-size: 310px;
+    background-position: center -10px;
+  }
+  body .main-content-box .about-us .container .side-images {
+    width: 320px;
+    height: 220px;
+    justify-content: center;
+    margin-bottom: 75px;
+  }
+  body .main-content-box .about-us .container .side-images img {
+    width: 86%;
+    height: 180px;
+    position: static;
+  }
+  body .main-content-box .about-us .container .side-images img:first-child {
+    display: none;
+  }
+  body .main-content-box .delivery {
+    padding-block: 50px;
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
+    content: ".....................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
+    content: "............................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
+    content: ".........................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
+    content: ".....................";
+  }
+  body .main-content-box .delivery .container .deliveryman-img {
+    margin-bottom: 40px;
+  }
+  body .main-content-box .faq {
+    padding-block: 50px;
+  }
+  body .main-content-box .contact {
+    padding-block: 50px;
+  }
+  body .main-content-box .contact .container .side-address iframe {
+    height: 320px;
+  }
+  body .main-content-box footer {
+    padding-top: 50px;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
