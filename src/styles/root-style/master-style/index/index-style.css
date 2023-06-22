@@ -293,7 +293,7 @@ body .main-content-box .rigth-bottom-btn {
 }
 
 body .main-content-box .carousel {
-  height: 625px;
+  height: 95vh;
   width: 100%;
   position: relative;
   display: flex;

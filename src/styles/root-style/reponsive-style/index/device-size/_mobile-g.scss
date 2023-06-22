@@ -47,7 +47,6 @@
             .delivery{
 
                 .container{
-                    max-width: 500px;
                     
                     .info{
 
@@ -148,9 +147,10 @@
             }
 
             .carousel{
-                height: 755px;
+                height: 95vh;
 
                 .carousel-img{
+                    filter: brightness(90%);
         
                     &.one{
                         background-image: url(../../../../images/section-images/carousel/responsive/r-bg-1.png);
@@ -193,7 +193,6 @@
             .benefits{
 
                 .container{
-
                     width: 800px;
                 }
             }
@@ -214,14 +213,17 @@
                             height: 184px;
                         }
                     }
-
                 }
             }
 
             .imgs-panel{
 
+                &::after{
+                    left: 44.5%;
+                }
+
                 .container{
-                    width: 400vw;
+                    width: 400vw;    
                 }
             }
             
@@ -274,7 +276,7 @@
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 498px){
 
     body{
 
@@ -299,7 +301,7 @@
 
                     .description{
                         font-size: 1.6rem;
-                        width: 345px;
+                        width: 330px;
                     }
                 }
             }
@@ -335,10 +337,12 @@
                         .about-us-btn-links{
                             flex-direction: column;
                             align-items: center;
+                            gap: unset;
                             
                             .primary-btn.transparent{
                                 width: 225px;
                                 justify-content: center;
+                                margin-top: 20px;
                             }
                         }
                     }
@@ -358,6 +362,26 @@
                             .whatsapp-container{
                                 margin-right: 0;
                             }
+
+                            .ifood-container{
+                                margin-top: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .faq{
+                .content-box{
+
+                    .accordion{
+
+                        .line-question{
+
+                            .text-content{
+                                margin-left: 0;
+                                padding-right: 0;
+                            }
                         }
                     }
                 }
@@ -375,8 +399,12 @@
                             .submit-container{
 
                                 .validation-alert{
-                                    width: 97%;
-                                    top: 95px;
+                                    width: 96%;
+                                    font-size: 14px;
+                                   
+                                    &.active{
+                                        left: 2vw;
+                                    }
                                 }
                             }
                         }
