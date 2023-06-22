@@ -127,7 +127,7 @@
 
             .fixed-whatsapp-anchor{
                 display: flex;
-                bottom: 20px;
+                bottom: 8px;
             }
 
             .title-box{
@@ -164,6 +164,10 @@
 
             section:not(.imgs-panel){
                 padding-inline: 20px;
+            }
+
+            .carousel{
+                height: 625px;
             }
 
             .benefits{   
@@ -237,7 +241,7 @@
 
                         .about-us-btn-links{
                             justify-content: center;
-                            gap: 20px;
+                            gap: 24px;
 
                             .primary-btn{
                                 width: 198px;
