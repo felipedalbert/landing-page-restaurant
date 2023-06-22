@@ -862,4 +862,19 @@
   body .main-content-box .delivery .container .deliveryman-img {
     width: 95vw;
   }
+}
+@media (min-width: 1366px) and (min-height: 800px) {
+  body .main-content-box .carousel {
+    height: 80vh;
+  }
+}
+@media (min-width: 820px) and (min-height: 900px) and (max-width: 1100px) {
+  body .main-content-box .carousel {
+    height: 60vh;
+  }
+}
+@media (min-width: 712px) and (min-height: 900px) and (max-width: 1100px) {
+  body .main-content-box .carousel {
+    height: 65vh;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
