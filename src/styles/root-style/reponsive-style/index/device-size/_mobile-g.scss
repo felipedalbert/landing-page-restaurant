@@ -541,3 +541,46 @@
         }
     }
 }
+
+@media (max-width: 398px) {
+    body{
+
+        .main-content-box{
+
+            .delivery{
+
+                .container{
+                    
+                    .info{
+
+                        .marmite-prices{
+
+                            .marmite{
+
+                                .type.p::after{
+                                    content: '...............................................';
+                                }
+
+                                .type.m::after{
+                                    content: '......................................................';
+                                }
+
+                                .type.g::after{
+                                    content: '...................................................';
+                                }
+
+                                .type.kf::after{
+                                    content: '................................';
+                                }
+                            }
+                        }
+                    }
+
+                    .deliveryman-img{
+                        width: 90vw;
+                    }
+                }
+            }
+        }
+    }
+}
