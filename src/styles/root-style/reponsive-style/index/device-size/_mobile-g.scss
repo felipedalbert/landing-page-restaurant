@@ -421,3 +421,123 @@
         }
     }
 }
+
+@media (max-width: 458px){
+
+    body{
+
+        .main-content-box{
+
+            .title-box{
+
+                .section-title{
+                    font-size: 3.5rem;
+                }
+
+                .underline-title{
+                    display: inline-block;
+                }
+            }
+
+            .benefits{
+                padding-block: 40px;
+
+                .container{
+                    width: 700px;
+                }
+            }
+
+            .about-us{
+
+                .container{
+                    padding-top: 110px;
+                    padding-bottom: 50px;
+                    background-size: 340px;
+                    background-position: center -15px;
+                    
+                    .side-images{
+                        width: 320px;
+                        height: 220px;
+
+                        img{
+                            width: 186px;
+                            height: 128px;
+                        }
+                    }
+
+                }
+            }
+
+            .delivery{
+                padding-block: 60px;
+                .container{
+                    
+                    
+                    .info{
+
+                        .marmite-prices{
+
+                            .marmite{
+
+                                .type.p::after{
+                                    content: '..........................................................';
+                                }
+
+                                .type.m::after{
+                                    content: '................................................................';
+                                }
+
+                                .type.g::after{
+                                    content: '.............................................................';
+                                }
+
+                                .type.kf::after{
+                                    content: '..........................................';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .contact{
+                background-image: url(../../../../images/section-images/contact/responsive/r-contact-bg.png);
+
+                .container{
+
+                    .side-form{
+
+                        .form-container{
+
+                            .user-info-container{
+
+                                textarea{
+                                    height: 100px;
+                                }
+                            }
+
+                            .submit-container{
+
+                                button{
+                                    width: 160px;
+                                }
+                            }
+                        }
+                    }  
+                    
+                    .side-address{
+
+                        iframe{
+                            height: 340px;
+                        }
+
+                        p{
+                            max-width: 300px;
+                            margin: 0 auto;
+                        }
+                    }
+                }        
+            }
+        }
+    }
+}

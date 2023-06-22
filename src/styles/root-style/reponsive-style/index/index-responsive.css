@@ -630,4 +630,63 @@
   body .main-content-box .contact .container .side-address p {
     font-size: 1.4rem;
   }
+}
+@media (max-width: 458px) {
+  body .main-content-box .title-box .section-title {
+    font-size: 3.5rem;
+  }
+  body .main-content-box .title-box .underline-title {
+    display: inline-block;
+  }
+  body .main-content-box .benefits {
+    padding-block: 40px;
+  }
+  body .main-content-box .benefits .container {
+    width: 700px;
+  }
+  body .main-content-box .about-us .container {
+    padding-top: 110px;
+    padding-bottom: 50px;
+    background-size: 340px;
+    background-position: center -15px;
+  }
+  body .main-content-box .about-us .container .side-images {
+    width: 320px;
+    height: 220px;
+  }
+  body .main-content-box .about-us .container .side-images img {
+    width: 186px;
+    height: 128px;
+  }
+  body .main-content-box .delivery {
+    padding-block: 60px;
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
+    content: "..........................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
+    content: "................................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
+    content: ".............................................................";
+  }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
+    content: "..........................................";
+  }
+  body .main-content-box .contact {
+    background-image: url(../../../../images/section-images/contact/responsive/r-contact-bg.png);
+  }
+  body .main-content-box .contact .container .side-form .form-container .user-info-container textarea {
+    height: 100px;
+  }
+  body .main-content-box .contact .container .side-form .form-container .submit-container button {
+    width: 160px;
+  }
+  body .main-content-box .contact .container .side-address iframe {
+    height: 340px;
+  }
+  body .main-content-box .contact .container .side-address p {
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=index-responsive.css.map */
