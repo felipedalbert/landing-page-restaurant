@@ -41,6 +41,7 @@ body{
                         .label{
                             display: flex;
                             justify-content: space-between;
+                            align-items: center;
                             transition: ease .3s;
 
                             h4{
@@ -106,7 +107,7 @@ body{
                                     right: 0;
                                 }
                             }
-                        
+                            
                         }
 
                         &.active{
@@ -116,7 +117,7 @@ body{
 
                                 .arrow-down{
                                     transform: rotate(0);
-                                    transform: translate(-60%, 25%);
+                                    transform: translateY(25%);
                                 }
 
                                 h4{
