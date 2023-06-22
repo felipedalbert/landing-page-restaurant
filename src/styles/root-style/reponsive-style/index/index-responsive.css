@@ -1,86 +1,4 @@
-@media (max-width: 1160px) {
-  body .main-content-box .container {
-    max-width: 960px;
-  }
-  body .main-content-box .about-us .container {
-    background-position-x: -50px;
-  }
-  body .main-content-box .about-us .container .side-images {
-    width: 410px;
-    height: 300px;
-  }
-  body .main-content-box .about-us .container .side-images img {
-    width: 247px;
-    height: 174px;
-  }
-  body .main-content-box .about-us .container .side-text > p {
-    width: 500px;
-  }
-  body .main-content-box .about-us .container .side-text .about-us-btn-links {
-    gap: 12px;
-  }
-  body .main-content-box .delivery .delivery-btn-links .whatsapp-container {
-    margin-right: 12px;
-  }
-  body .main-content-box .delivery .deliveryman-img {
-    width: 460px;
-  }
-  body .main-content-box .faq .searching-img {
-    width: 436px;
-  }
-  body .main-content-box .faq .content-box .accordion {
-    width: 500px;
-  }
-  body .main-content-box .faq .content-box .accordion .line-question .text-content {
-    width: 420px;
-    padding-right: 8px;
-  }
-  body .main-content-box .contact .side-form .form-container {
-    margin-top: 28px;
-    width: 436px;
-  }
-  body .main-content-box .contact .side-form .form-container .submit-container .validation-alert {
-    width: 328px;
-  }
-  body .main-content-box .contact .side-address iframe {
-    width: 470px;
-    height: 350px;
-  }
-  body .main-content-box footer .container {
-    -moz-column-gap: 70px;
-         column-gap: 70px;
-  }
-  body .main-content-box footer .container .social {
-    -moz-column-gap: 50px;
-         column-gap: 50px;
-  }
-}
 @media (max-width: 1024px) {
-  body .main-content-box .back-to-top-btn {
-    display: none;
-  }
-  body .main-content-box .fixed-whatsapp-anchor {
-    display: flex;
-    bottom: 8px;
-  }
-  body .main-content-box .title-box {
-    text-align: center;
-  }
-  body .main-content-box .title-box .section-title {
-    margin-bottom: -5px;
-  }
-  body .main-content-box .title-box .underline-title {
-    display: inline-block;
-  }
-  body .main-content-box .container {
-    font-size: 1.6rem;
-  }
-  body .main-content-box .container:not(.benefits .container, .imgs-panel .container) {
-    max-width: 768px;
-  }
-  body .main-content-box .container:not(.benefits .container, .imgs-panel .container):not(.contact .container, header .container, footer .container) {
-    flex-direction: column;
-  }
   body .main-content-box header .container {
     position: static;
   }
@@ -131,6 +49,149 @@
   }
   body .main-content-box header .container .open-menu-btn {
     display: block;
+  }
+}
+@media (max-width: 1160px) {
+  body .main-content-box footer .container {
+    -moz-column-gap: 70px;
+         column-gap: 70px;
+  }
+  body .main-content-box footer .container .social {
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+}
+@media (max-width: 1024px) {
+  body .main-content-box footer .container {
+    justify-content: center;
+  }
+  body .main-content-box footer .container img {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+  body .main-content-box footer .container .opening-hours {
+    flex: 1 1 content;
+  }
+  body .main-content-box footer .container .social {
+    flex: 1 1 47%;
+    -moz-column-gap: 70px;
+         column-gap: 70px;
+  }
+  body .main-content-box footer .container .copyright {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 818px) {
+  body .main-content-box footer .container {
+    text-align: center;
+  }
+  body .main-content-box footer .container p {
+    margin-bottom: 16px;
+  }
+  body .main-content-box footer .container .opening-hours {
+    flex: 1 1 100%;
+  }
+  body .main-content-box footer .container .social {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "social-media-text" "email" "icons";
+    flex: 1 1 100%;
+  }
+  body .main-content-box footer .container .social .email {
+    margin-bottom: 16px;
+  }
+  body .main-content-box footer .container .copyright {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 548px) {
+  body .main-content-box footer .container .copyright {
+    display: flex;
+    flex-direction: column;
+  }
+  body .main-content-box footer .container .copyright i {
+    display: none;
+  }
+}
+@media (max-width: 368px) {
+  body .main-content-box footer {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 1160px) {
+  body .main-content-box .container {
+    max-width: 960px;
+  }
+  body .main-content-box .about-us .container {
+    background-position-x: -50px;
+  }
+  body .main-content-box .about-us .container .side-images {
+    width: 410px;
+    height: 300px;
+  }
+  body .main-content-box .about-us .container .side-images img {
+    width: 247px;
+    height: 174px;
+  }
+  body .main-content-box .about-us .container .side-text > p {
+    width: 500px;
+  }
+  body .main-content-box .about-us .container .side-text .about-us-btn-links {
+    gap: 12px;
+  }
+  body .main-content-box .delivery .delivery-btn-links .whatsapp-container {
+    margin-right: 12px;
+  }
+  body .main-content-box .delivery .deliveryman-img {
+    width: 460px;
+  }
+  body .main-content-box .faq .searching-img {
+    width: 436px;
+  }
+  body .main-content-box .faq .content-box .accordion {
+    width: 500px;
+  }
+  body .main-content-box .faq .content-box .accordion .line-question .text-content {
+    width: 420px;
+    padding-right: 8px;
+  }
+  body .main-content-box .contact .side-form .form-container {
+    margin-top: 28px;
+    width: 436px;
+  }
+  body .main-content-box .contact .side-form .form-container .submit-container .validation-alert {
+    width: 328px;
+  }
+  body .main-content-box .contact .side-address iframe {
+    width: 470px;
+    height: 350px;
+  }
+}
+@media (max-width: 1024px) {
+  body .main-content-box .back-to-top-btn {
+    display: none;
+  }
+  body .main-content-box .fixed-whatsapp-anchor {
+    display: flex;
+    bottom: 8px;
+  }
+  body .main-content-box .title-box {
+    text-align: center;
+  }
+  body .main-content-box .title-box .section-title {
+    margin-bottom: -5px;
+  }
+  body .main-content-box .title-box .underline-title {
+    display: inline-block;
+  }
+  body .main-content-box .container {
+    font-size: 1.6rem;
+  }
+  body .main-content-box .container:not(.benefits .container, .imgs-panel .container) {
+    max-width: 768px;
+  }
+  body .main-content-box .container:not(.benefits .container, .imgs-panel .container):not(.contact .container, header .container, footer .container) {
+    flex-direction: column;
   }
   body .main-content-box section:not(.imgs-panel) {
     padding-inline: 20px;
@@ -309,24 +370,6 @@
     width: 100%;
     height: 332px;
   }
-  body .main-content-box footer .container {
-    justify-content: center;
-  }
-  body .main-content-box footer .container img {
-    flex: 1 1 100%;
-    margin-bottom: 20px;
-  }
-  body .main-content-box footer .container .opening-hours {
-    flex: 1 1 content;
-  }
-  body .main-content-box footer .container .social {
-    flex: 1 1 47%;
-    -moz-column-gap: 70px;
-         column-gap: 70px;
-  }
-  body .main-content-box footer .container .copyright {
-    margin-top: 20px;
-  }
 }
 @media (max-width: 818px) {
   body .main-content-box .container:not(.benefits .container, .imgs-panel .container) {
@@ -382,27 +425,6 @@
   }
   body .main-content-box .contact .container .side-address p {
     font-size: 13px;
-  }
-  body .main-content-box footer .container {
-    text-align: center;
-  }
-  body .main-content-box footer .container p {
-    margin-bottom: 16px;
-  }
-  body .main-content-box footer .container .opening-hours {
-    flex: 1 1 100%;
-  }
-  body .main-content-box footer .container .social {
-    grid-template-columns: auto;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "social-media-text" "email" "icons";
-    flex: 1 1 100%;
-  }
-  body .main-content-box footer .container .social .email {
-    margin-bottom: 16px;
-  }
-  body .main-content-box footer .container .copyright {
-    margin-top: 10px;
   }
 }
 @media (max-width: 680px) {
@@ -552,13 +574,6 @@
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
     content: ".......................................................";
-  }
-  body .main-content-box footer .container .copyright {
-    display: flex;
-    flex-direction: column;
-  }
-  body .main-content-box footer .container .copyright i {
-    display: none;
   }
 }
 @media (max-width: 498px) {
@@ -781,9 +796,6 @@
   }
   body .main-content-box .contact .container .side-address iframe {
     height: 320px;
-  }
-  body .main-content-box footer {
-    padding-top: 50px;
   }
 }
 @media (max-width: 338px) {

@@ -106,39 +106,6 @@
                     }
                 }
             }
-
-            footer{
-
-                .container{
-                    text-align: center;
-
-                    p{
-                        margin-bottom: 16px;
-                    }
-
-                    .opening-hours{
-                        flex: 1 1 100%;
-
-                    }
-
-                    .social{
-                        grid-template-columns: auto;
-                        grid-template-rows: repeat(3, auto);
-                        grid-template-areas: 
-                        "social-media-text"
-                        "email" "icons" ;
-                        flex: 1 1 100%;
-                        
-                        .email{
-                            margin-bottom: 16px;
-                        }
-                    }
-
-                    .copyright{
-                        margin-top: 10px;
-                    }
-                }
-            }
         }
     }
 }

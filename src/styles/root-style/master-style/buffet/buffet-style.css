@@ -366,6 +366,39 @@ body .main-content-box footer .container .social .icons a i:hover {
   color: #ffffff;
 }
 
+body .main-content-box header .navigation ul {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 44px;
+       column-gap: 44px;
+}
+body .main-content-box header .navigation ul a {
+  transition: ease-in-out 0.2s;
+  color: #dcd8d8;
+}
+body .main-content-box header .navigation ul a:hover {
+  color: #ff333c;
+}
+body .main-content-box header .navigation ul a[target=_self] {
+  display: flex;
+  align-items: center;
+}
+body .main-content-box header .navigation ul a[target=_self] i {
+  transform: scaleX(-1);
+  margin-right: 6px;
+  font-size: 16px;
+}
+body .main-content-box header .navigation ul a[target=_self]:hover i {
+  margin-right: 7px;
+}
+body .main-content-box header .navigation ul a.primary-btn.green {
+  background-color: #36f46f;
+  color: #376d4e;
+}
+body .main-content-box header .navigation ul a.primary-btn.green:hover {
+  background-color: #20d657;
+  color: #3d6a50;
+}
 body .main-content-box .buffet {
   background-color: #1c1919;
   padding-block: 134px 42px;

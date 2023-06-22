@@ -1,0 +1,134 @@
+@media (max-width: 1160px){
+    
+    body{
+
+        .main-content-box{
+
+            footer{
+                
+                .container{
+                    column-gap: 70px;
+
+                    .social{
+                        column-gap: 50px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 1024px){
+
+    body{
+
+        .main-content-box{
+
+            footer{
+
+                .container{
+                    
+                    justify-content: center;
+
+                    img{
+                        flex: 1 1 100%;
+                        margin-bottom: 20px;
+                    }
+
+                    .opening-hours{
+                        flex: 1 1 content;
+                    }
+
+                    .social{
+                        flex: 1 1 47%;
+                        column-gap: 70px;
+                    }
+
+                    .copyright{
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 818px){
+
+    body{
+
+        .main-content-box{
+
+            footer{
+
+                .container{
+                    text-align: center;
+
+                    p{
+                        margin-bottom: 16px;
+                    }
+
+                    .opening-hours{
+                        flex: 1 1 100%;
+
+                    }
+
+                    .social{
+                        grid-template-columns: auto;
+                        grid-template-rows: repeat(3, auto);
+                        grid-template-areas: 
+                        "social-media-text"
+                        "email" "icons" ;
+                        flex: 1 1 100%;
+                        
+                        .email{
+                            margin-bottom: 16px;
+                        }
+                    }
+
+                    .copyright{
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 548px){
+
+    body{
+
+        .main-content-box{
+
+            footer{
+
+                .container{
+
+                    .copyright{
+                        display: flex;
+                        flex-direction: column;
+
+                        i{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:368px){
+
+    body{
+
+        .main-content-box{
+
+            footer{
+                padding-top: 50px;
+            }
+        }
+    }
+}
