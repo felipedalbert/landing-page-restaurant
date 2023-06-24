@@ -28,6 +28,7 @@
             footer{
 
                 .container{
+                    font-size: 1.4rem;
                     justify-content: center;
 
                     img{
@@ -46,6 +47,7 @@
 
                     .copyright{
                         margin-top: 20px;
+                        font-size: 1.4rem;
                     }
                 }
             }
@@ -62,6 +64,7 @@
             footer{
 
                 .container{
+                    font-size: 1.6rem;
                     text-align: center;
 
                     p{
@@ -113,6 +116,22 @@
                             display: none;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 498px){
+
+    body{
+
+        .main-content-box{
+
+            footer{
+
+                .container{
+                    font-size: 1.4rem;                    
                 }
             }
         }

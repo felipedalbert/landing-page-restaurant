@@ -63,6 +63,7 @@
 }
 @media (max-width: 1024px) {
   body .main-content-box footer .container {
+    font-size: 1.4rem;
     justify-content: center;
   }
   body .main-content-box footer .container img {
@@ -79,10 +80,12 @@
   }
   body .main-content-box footer .container .copyright {
     margin-top: 20px;
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 818px) {
   body .main-content-box footer .container {
+    font-size: 1.6rem;
     text-align: center;
   }
   body .main-content-box footer .container p {
@@ -111,6 +114,11 @@
   }
   body .main-content-box footer .container .copyright i {
     display: none;
+  }
+}
+@media (max-width: 498px) {
+  body .main-content-box footer .container {
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 368px) {
