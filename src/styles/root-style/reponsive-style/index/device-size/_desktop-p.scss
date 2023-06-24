@@ -136,7 +136,7 @@
                 font-size: 1.6rem;
 
                 &:not(.benefits .container, .imgs-panel .container){
-                max-width: 768px;
+                    max-width: 768px;
                 
                     &:not(.contact .container, header .container, footer .container){
                         flex-direction: column
