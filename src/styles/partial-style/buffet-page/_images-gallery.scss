@@ -65,7 +65,7 @@ body{
                 .imgs-gallery{
                     margin-bottom: 48px;
 
-                    &:hover .frame:not(:hover) img{
+                    &:hover .frame:not(:hover) .image{
                         filter: brightness(60%);  
                     }
 
@@ -79,31 +79,74 @@ body{
 
                         .frame{
                             height: 100%;
+                            width: 100%;
                             transition: ease .3s;
                             position: relative;
                             overflow: hidden;
                             z-index: 1;
+                            border-radius: 8px;
 
                             &:hover{
                                 transform: scale(1.02);
+
+                                .image{
+                                    transform: scale(1.025);
+                                }
                             }
 
-                            img{
+                            .image{
                                 transition: ease-in-out .3s;
                                 height: 100%;
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                                width: 100%;
                             }
                         }
 
                         .frame.one{
                             grid-area: img-1;
+
+                            .image.bf{
+                                background-image: url('../../../../images/section-images/buffet/buffet-1.jpg');
+                                
+                            }
+
+                            .image.kf{
+                                background-image: url('../../../../images/section-images/buffet/kitf-1.jpg');
+                                background-position: -10px;
+                            }
                         }
         
                         .frame.two{
                             grid-area: img-2;  
+
+                            .image.bf{
+                                background-image: url('../../../../images/section-images/buffet/buffet-2.jpg');
+                                background-size: 180%;
+                                background-position: -230px -60px;
+                            }
+
+                            .image.kf{
+                                background-image: url('../../../../images/section-images/buffet/kitf-2.jpg');
+                                background-size: 130%;
+                                background-position: -55px -40px;
+                            }
                         }
         
                         .frame.three{
                             grid-area: img-3;
+
+                            .image.bf{
+                                background-image: url('../../../../images/section-images/buffet/buffet-3.jpg');
+                                background-size: 120%;
+                            }
+
+                            .image.kf{
+                                background-image: url('../../../../images/section-images/buffet/kitf-3.jpg');
+                                background-size: 150%;
+                                background-position: -72px center;
+                            }
                         }
                     }
         
@@ -125,7 +168,6 @@ body{
                         }
 
                         .frame.three:hover ~ .bar{
-                            
                             height: 85%;
                         }
                     }
@@ -167,7 +209,7 @@ body{
 
                     .our-buffet .frame.three, .kit-feijoada .frame.one{
                             
-                        img{
+                        .image{
                             filter: brightness(60%);
                         }
 
@@ -186,7 +228,7 @@ body{
 
                         &:hover{
                             
-                            img{
+                            .image{
                                 filter: brightness(100%);
                             }
                             

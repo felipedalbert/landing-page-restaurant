@@ -125,4 +125,9 @@
   body .main-content-box footer {
     padding-top: 50px;
   }
+}
+@media (max-width: 1160px) {
+  body .main-content-box .container {
+    max-width: 960px;
+  }
 }/*# sourceMappingURL=buffet-responsive.css.map */

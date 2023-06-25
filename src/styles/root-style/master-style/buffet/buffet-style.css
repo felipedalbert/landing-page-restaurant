@@ -409,7 +409,7 @@ body .main-content-box .buffet .container {
 body .main-content-box .buffet .container .imgs-gallery {
   margin-bottom: 48px;
 }
-body .main-content-box .buffet .container .imgs-gallery:hover .frame:not(:hover) img {
+body .main-content-box .buffet .container .imgs-gallery:hover .frame:not(:hover) .image {
   filter: brightness(60%);
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
@@ -423,26 +423,61 @@ body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame {
   height: 100%;
+  width: 100%;
   transition: ease 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  border-radius: 8px;
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame:hover, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame:hover {
   transform: scale(1.02);
 }
-body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame img, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame img {
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame:hover .image, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame:hover .image {
+  transform: scale(1.025);
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame .image, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame .image {
   transition: ease-in-out 0.3s;
   height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one {
   grid-area: img-1;
 }
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one .image.bf {
+  background-image: url("../../../../images/section-images/buffet/buffet-1.jpg");
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one .image.kf {
+  background-image: url("../../../../images/section-images/buffet/kitf-1.jpg");
+  background-position: -10px;
+}
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two {
   grid-area: img-2;
 }
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.bf {
+  background-image: url("../../../../images/section-images/buffet/buffet-2.jpg");
+  background-size: 180%;
+  background-position: -230px -60px;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.kf {
+  background-image: url("../../../../images/section-images/buffet/kitf-2.jpg");
+  background-size: 130%;
+  background-position: -55px -40px;
+}
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three {
   grid-area: img-3;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.bf {
+  background-image: url("../../../../images/section-images/buffet/buffet-3.jpg");
+  background-size: 120%;
+}
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.kf {
+  background-image: url("../../../../images/section-images/buffet/kitf-3.jpg");
+  background-size: 150%;
+  background-position: -72px center;
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet {
   grid-template-columns: minmax(auto, 267px) minmax(auto, 329px) minmax(auto, 442px);
@@ -487,7 +522,7 @@ body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .bar {
 body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one:hover ~ .bar {
   height: 85%;
 }
-body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three img, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one img {
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one .image {
   filter: brightness(60%);
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::before {
@@ -502,7 +537,7 @@ body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three
   text-align: center;
   z-index: 1;
 }
-body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three:hover img, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one:hover img {
+body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three:hover .image, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one:hover .image {
   filter: brightness(100%);
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three:hover::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one:hover::before {
