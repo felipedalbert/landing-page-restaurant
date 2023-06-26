@@ -130,4 +130,63 @@
   body .main-content-box .container {
     max-width: 960px;
   }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+    height: 290px;
+    grid-template-rows: auto 235px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one {
+    grid-area: img-1;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one .image.bf {
+    background-image: url("../../../../images/section-images/buffet/buffet-1.jpg");
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one .image.kf {
+    background-image: url("../../../../images/section-images/buffet/kitf-1.jpg");
+    background-size: 130%;
+    background-position: -40px 0px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two {
+    grid-area: img-2;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.bf {
+    background-image: url("../../../../images/section-images/buffet/buffet-2.jpg");
+    background-size: 180%;
+    background-position: -200px -60px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.kf {
+    background-image: url("../../../../images/section-images/buffet/kitf-2.jpg");
+    background-size: 120%;
+    background-position: -30px -30px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three {
+    grid-area: img-3;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.bf {
+    background-image: url("../../../../images/section-images/buffet/buffet-3.jpg");
+    background-size: 120%;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.kf {
+    background-image: url("../../../../images/section-images/buffet/kitf-3.jpg");
+    background-size: 160%;
+    background-position: -65px center;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet {
+    grid-template-columns: minmax(auto, 232px) minmax(auto, 292px) minmax(auto, 368px);
+  }
+  body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+    grid-template-columns: minmax(auto, 365px) minmax(auto, 300px) minmax(auto, 225px);
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::before {
+    font-size: 1.6rem;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title {
+    font-size: 30px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title .underline-title {
+    width: 15px;
+    height: 15px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .bar {
+    display: none;
+  }
 }/*# sourceMappingURL=buffet-responsive.css.map */

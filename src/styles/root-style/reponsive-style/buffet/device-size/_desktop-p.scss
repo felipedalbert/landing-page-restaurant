@@ -7,6 +7,97 @@
             .container{
                 max-width: 960px;
             }
+
+            .buffet{
+    
+                .container{
+
+                    .imgs-gallery{
+    
+                        .our-buffet, .kit-feijoada{
+                            height: 290px;
+                            grid-template-rows: auto 235px;
+    
+                            .frame.one{
+                                grid-area: img-1;
+    
+                                .image.bf{
+                                    background-image: url('../../../../images/section-images/buffet/buffet-1.jpg');
+                                }
+    
+                                .image.kf{
+                                    background-image: url('../../../../images/section-images/buffet/kitf-1.jpg');
+                                    background-size: 130%;
+                                    background-position: -40px 0px;
+                                }
+                            }
+            
+                            .frame.two{
+                                grid-area: img-2;  
+    
+                                .image.bf{
+                                    background-image: url('../../../../images/section-images/buffet/buffet-2.jpg');
+                                    background-size: 180%;
+                                    background-position: -200px -60px;
+                                }
+    
+                                .image.kf{
+                                    background-image: url('../../../../images/section-images/buffet/kitf-2.jpg');
+                                    background-size: 120%;
+                                    background-position: -30px -30px;
+                                }
+                            }
+            
+                            .frame.three{
+                                grid-area: img-3;
+    
+                                .image.bf{
+                                    background-image: url('../../../../images/section-images/buffet/buffet-3.jpg');
+                                    background-size: 120%;
+                                }
+    
+                                .image.kf{
+                                    background-image: url('../../../../images/section-images/buffet/kitf-3.jpg');
+                                    background-size: 160%;
+                                    background-position: -65px center;
+                                }
+                            }
+                        }
+            
+                        .our-buffet{
+                            grid-template-columns: minmax(auto, 232px) minmax(auto, 292px) minmax(auto, 368px);
+                        }
+    
+                        .kit-feijoada{
+                            grid-template-columns: minmax(auto, 365px) minmax(auto, 300px) minmax(auto, 225px);
+                        }
+
+                        .our-buffet .frame.three, .kit-feijoada .frame.one{
+    
+                            &::before{
+                                font-size: 1.6rem;
+                            }
+                        }
+    
+                        .title-box{
+    
+                            .section-title{
+        
+                                font-size: 30px;
+    
+                                .underline-title{
+                                    width: 15px;
+                                    height: 15px;
+                                }
+                            }
+                        }
+    
+                        .bar{
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
     }
 }
