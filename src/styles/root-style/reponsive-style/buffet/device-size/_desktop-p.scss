@@ -101,3 +101,168 @@
         }
     }
 }
+
+@media (max-width: 1024px){
+    
+    body{
+
+        .main-content-box{
+
+            header{
+                top: -2px;
+
+                .container{
+
+                    .navigation{
+                        height: 101vh;
+                        background-color: #333333;
+                        color: #dcd8d8;
+                        ul{
+        
+                            a[target="_self"]{
+    
+                                i{
+                                    transform: scaleX(-1);
+                                    margin-right: 12px;
+                                    font-size: 28px;
+                                }      
+                            }
+                        }
+                    }
+                }
+            }
+
+            .container{
+                max-width: 768px;
+            }
+
+            section, header{
+                padding-inline: 40px;
+            }
+
+            .buffet{
+    
+                .container{
+
+                    .imgs-gallery{
+                        margin-bottom: 88px;
+
+                        &:hover .frame:not(:hover) .image:not(.frame.three .image.bf, .frame.one .image.kf){
+                            filter: brightness(100%);  
+                        }
+    
+                        .our-buffet, .kit-feijoada{
+                            height: 790px;
+                            grid-template-rows: auto 310px 412px;
+                            column-gap: 40px;
+
+                            .frame:hover{
+                                transform: scale(1);
+
+                                .image{
+                                    transform: scale(1);
+                                }
+                                
+                            }
+
+                            .frame.one{
+                                grid-area: img-1;
+    
+                                .image.bf{
+                                    background-image: url('../../../../images/section-images/buffet/buffet-1.jpg');
+                                }
+    
+                                .image.kf{
+                                    background-image: url('../../../../images/section-images/buffet/kitf-1.jpg');
+                                    background-size: 110%;
+                                    background-position: -10px 0px;
+                                }
+                            }
+            
+                            .frame.two{
+                                grid-area: img-2;  
+    
+                                .image.bf{
+                                    background-image: url('../../../../images/section-images/buffet/buffet-2.jpg');
+                                    background-size: 170%;
+                                    background-position: -250px -75px;
+                                }
+    
+                                .image.kf{
+                                    background-image: url('../../../../images/section-images/buffet/kitf-2.jpg');
+                                    background-size: 140%;
+                                    background-position: -95px -85px;
+                                }
+                            }
+            
+                            .frame.three{
+                                grid-area: img-3;
+    
+                                .image.bf{
+                                    background-image: url('../../../../images/section-images/buffet/buffet-3.jpg');
+                                    background-size: 110%;
+                                    background-position: center -60px;
+                                }
+    
+                                .image.kf{
+                                    background-image: url('../../../../images/section-images/buffet/kitf-3.jpg');
+                                    background-size: 160%;
+                                    background-position: -80px center;
+                                }
+                            }
+                        }
+            
+                        .our-buffet{
+                            grid-template-columns: minmax(auto, 290px) minmax(auto, 452px);
+                            grid-template-areas: 
+                                "title img-2" 
+                                "img-1 img-2" 
+                                "img-3 img-3";
+                            margin-bottom: 80px;
+
+                            .frame.three{
+                                margin-top: 80px;
+                            }
+                        }
+    
+                        .kit-feijoada{
+                            grid-template-columns: minmax(auto, 452px) minmax(auto, 290px);
+                            grid-template-areas: 
+                                "img-2 title" 
+                                "img-2 img-3" 
+                                "img-1 img-1";
+
+                            .frame.one{
+                                margin-top: 80px;
+
+                                &::after{
+                                    font-size: 1.2rem;
+                                }
+                            }
+                        }
+
+                        .our-buffet .frame.three, .kit-feijoada .frame.one{
+    
+                            &::before{
+                                font-size: 2.2rem;
+                                width: 430px;
+                            }
+                        }
+    
+                        .title-box{
+
+                            .section-title{
+                                font-size: 35px;
+    
+                                .underline-title{
+                                    width: 18px;
+                                    height: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
