@@ -201,3 +201,100 @@
         }
     }
 }
+
+@media (max-width: 498px){
+    
+    body{
+
+        .main-content-box{
+
+            .container{
+                max-width: 425px;
+            }
+
+            .buffet{
+
+                .container{
+
+                    .imgs-gallery{
+    
+                        .our-buffet, .kit-feijoada{
+                            height: 420px;
+                            grid-template-rows: auto 160px 220px;
+
+                            .frame.one{
+    
+                                .image.kf{
+                                    background-size: 110%;
+                                    background-position: -5px 0;
+                                }
+                            }
+            
+                            .frame.two{
+    
+                                .image.bf{
+                                    background-size: 180%;
+                                    background-position: -150px -30px;
+                                }
+    
+                                .image.kf{
+                                    background-size: 120%;
+                                    background-position: -25px -22px;
+                                }
+                            }
+
+                            .frame.three{
+
+                                .image.kf{
+                                    background-position: -45px -25px;
+                                }
+                            }
+                        }
+            
+                        .our-buffet{
+                            grid-template-columns: minmax(auto, 180px) minmax(auto, 225px);
+                            margin-bottom: 50px;
+                        }
+    
+                        .kit-feijoada{
+                            grid-template-columns: minmax(auto, 225px) minmax(auto, 180px);
+                        }
+
+                        .our-buffet .frame.three, .kit-feijoada .frame.one{
+    
+                            &::before{
+                                font-size: 1.6rem;
+                                width: 310px;
+                            }
+                        }
+    
+                        .title-box{
+
+                            .section-title{
+                                font-size: 2.2rem;
+    
+                                .underline-title{
+                                    width: 13px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                    }
+
+                    .delivery-btn-links{
+                        flex-direction: column;
+                        align-items: center;
+
+                        .whatsapp-container{
+                            margin-right: 0;
+                        }
+
+                        .ifood-container{
+                            margin-top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
