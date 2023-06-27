@@ -1,0 +1,65 @@
+@media (max-width: 375px){
+    
+    body{
+
+        .main-content-box{
+
+            .buffet{
+                padding-block: 134px 30px;
+
+                .container{
+
+                    .imgs-gallery{
+                        margin-bottom: 40px;
+
+                        .our-buffet, .kit-feijoada{
+                            grid-template-rows: auto 280px 200px 280px;
+                            row-gap: 25px;
+            
+                            .frame.two{
+    
+                                .image.bf{
+                                    background-size: 150%;
+                                    background-position: -40vw -16px;
+                                }
+                            }
+
+                            .frame.three{
+    
+                                .image.kf{
+                                    background-size: 150%;
+                                    background-position: -22vw 70%
+                                }
+                            }
+                        }
+            
+                        .our-buffet{
+                            margin-bottom: 45px;
+                        }
+
+                        .our-buffet .frame.three, .kit-feijoada .frame.one{
+    
+                            &::before{
+                                font-size: 1.3rem;
+                                font-weight: 500;
+                                width: 270px;
+                            }
+                        }
+    
+                        .title-box{
+
+                            .section-title{
+                                font-size: 3.2rem;
+    
+                                .underline-title{
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
