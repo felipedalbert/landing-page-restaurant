@@ -19,45 +19,33 @@
                             grid-template-rows: auto 235px;
     
                             .frame.one{
-                                grid-area: img-1;
-    
-                                .image.bf{
-                                    background-image: url('../../../../images/section-images/buffet/buffet-1.jpg');
-                                }
     
                                 .image.kf{
-                                    background-image: url('../../../../images/section-images/buffet/kitf-1.jpg');
                                     background-size: 130%;
                                     background-position: -40px 0px;
                                 }
                             }
             
-                            .frame.two{
-                                grid-area: img-2;  
+                            .frame.two{ 
     
                                 .image.bf{
-                                    background-image: url('../../../../images/section-images/buffet/buffet-2.jpg');
                                     background-size: 180%;
                                     background-position: -200px -60px;
                                 }
     
                                 .image.kf{
-                                    background-image: url('../../../../images/section-images/buffet/kitf-2.jpg');
                                     background-size: 120%;
                                     background-position: -30px -30px;
                                 }
                             }
             
                             .frame.three{
-                                grid-area: img-3;
     
                                 .image.bf{
-                                    background-image: url('../../../../images/section-images/buffet/buffet-3.jpg');
                                     background-size: 120%;
                                 }
     
                                 .image.kf{
-                                    background-image: url('../../../../images/section-images/buffet/kitf-3.jpg');
                                     background-size: 160%;
                                     background-position: -65px center;
                                 }
@@ -166,46 +154,34 @@
                             }
 
                             .frame.one{
-                                grid-area: img-1;
-    
-                                .image.bf{
-                                    background-image: url('../../../../images/section-images/buffet/buffet-1.jpg');
-                                }
     
                                 .image.kf{
-                                    background-image: url('../../../../images/section-images/buffet/kitf-1.jpg');
                                     background-size: 110%;
                                     background-position: -10px 0px;
                                 }
                             }
             
                             .frame.two{
-                                grid-area: img-2;  
     
                                 .image.bf{
-                                    background-image: url('../../../../images/section-images/buffet/buffet-2.jpg');
                                     background-size: 170%;
                                     background-position: -250px -75px;
                                 }
     
                                 .image.kf{
-                                    background-image: url('../../../../images/section-images/buffet/kitf-2.jpg');
                                     background-size: 140%;
                                     background-position: -95px -85px;
                                 }
                             }
             
                             .frame.three{
-                                grid-area: img-3;
     
                                 .image.bf{
-                                    background-image: url('../../../../images/section-images/buffet/buffet-3.jpg');
                                     background-size: 110%;
                                     background-position: center -60px;
                                 }
     
                                 .image.kf{
-                                    background-image: url('../../../../images/section-images/buffet/kitf-3.jpg');
                                     background-size: 160%;
                                     background-position: -80px center;
                                 }
