@@ -606,7 +606,7 @@
     margin-bottom: 45px;
   }
   body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::before {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 500;
     width: 270px;
   }
@@ -616,5 +616,40 @@
   body .main-content-box .buffet .container .imgs-gallery .title-box .section-title .underline-title {
     width: 16px;
     height: 16px;
+  }
+}
+@media (max-width: 338px) {
+  body .main-content-box .buffet {
+    padding-block: 124px 35px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery {
+    margin-bottom: 45px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+    grid-template-rows: auto 240px 180px 240px;
+    row-gap: 20px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.bf {
+    background-size: 150%;
+    background-position: -40vw -35px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.kf {
+    background-size: 150%;
+    background-position: -22vw 70%;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet {
+    margin-bottom: 40px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::before {
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 250px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title {
+    font-size: 3rem;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title .underline-title {
+    width: 14px;
+    height: 14px;
   }
 }/*# sourceMappingURL=buffet-responsive.css.map */

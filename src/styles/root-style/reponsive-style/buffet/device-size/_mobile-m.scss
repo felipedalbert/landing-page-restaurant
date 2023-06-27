@@ -40,7 +40,7 @@
                         .our-buffet .frame.three, .kit-feijoada .frame.one{
     
                             &::before{
-                                font-size: 1.3rem;
+                                font-size: 1.4rem;
                                 font-weight: 500;
                                 width: 270px;
                             }
@@ -54,6 +54,72 @@
                                 .underline-title{
                                     width: 16px;
                                     height: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 338px){
+    
+    body{
+
+        .main-content-box{
+
+            .buffet{
+                padding-block: 124px 35px;
+
+                .container{
+
+                    .imgs-gallery{
+                        margin-bottom: 45px;
+
+                        .our-buffet, .kit-feijoada{
+                            grid-template-rows: auto 240px 180px 240px;
+                            row-gap: 20px;
+            
+                            .frame.two{
+    
+                                .image.bf{
+                                    background-size: 150%;
+                                    background-position: -40vw -35px;
+                                }
+                            }
+
+                            .frame.three{
+    
+                                .image.kf{
+                                    background-size: 150%;
+                                    background-position: -22vw 70%
+                                }
+                            }
+                        }
+            
+                        .our-buffet{
+                            margin-bottom: 40px;
+                        }
+
+                        .our-buffet .frame.three, .kit-feijoada .frame.one{
+    
+                            &::before{
+                                font-size: 1.2rem;
+                                font-weight: 500;
+                                width: 250px;
+                            }
+                        }
+    
+                        .title-box{
+
+                            .section-title{
+                                font-size: 3rem;
+    
+                                .underline-title{
+                                    width: 14px;
+                                    height: 14px;
                                 }
                             }
                         }
