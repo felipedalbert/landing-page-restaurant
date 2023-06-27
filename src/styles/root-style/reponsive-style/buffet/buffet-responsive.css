@@ -392,4 +392,57 @@
     width: 14px;
     height: 14px;
   }
+}
+@media (max-width: 548px) {
+  body .main-content-box .container {
+    max-width: 460px;
+  }
+  body .main-content-box .buffet {
+    padding-block: 124px 32px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+    height: 530px;
+    grid-template-rows: auto 200px 280px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one .image.kf {
+    background-position: 0 0;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.bf {
+    background-size: 180%;
+    background-position: -170px -20px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.kf {
+    background-size: 130%;
+    background-position: -42px -25px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.kf {
+    background-position: -52px -15px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet {
+    grid-template-columns: minmax(auto, 200px) minmax(auto, 250px);
+  }
+  body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+    grid-template-columns: minmax(auto, 250px) minmax(auto, 200px);
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::before {
+    font-size: 1.8rem;
+    width: 350px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title {
+    font-size: 2.5rem;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title .underline-title {
+    width: 13px;
+    height: 13px;
+  }
+  body .main-content-box .buffet .container .delivery-btn-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main-content-box .buffet .container .delivery-btn-links .whatsapp-container {
+    margin-right: 0;
+  }
+  body .main-content-box .buffet .container .delivery-btn-links .ifood-container {
+    margin-top: 8px;
+  }
 }/*# sourceMappingURL=buffet-responsive.css.map */

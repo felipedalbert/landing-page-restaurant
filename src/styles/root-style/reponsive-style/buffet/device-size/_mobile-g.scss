@@ -105,3 +105,99 @@
         }
     }
 }
+
+@media (max-width: 548px){
+    
+    body{
+
+        .main-content-box{
+
+            .container{
+                max-width: 460px;
+            }
+
+            .buffet{
+                padding-block: 124px 32px;
+
+                .container{
+
+                    .imgs-gallery{
+    
+                        .our-buffet, .kit-feijoada{
+                            height: 530px;
+                            grid-template-rows: auto 200px 280px;
+
+                            .frame.one{
+    
+                                .image.kf{
+                                    background-position: 0 0;
+                                }
+                            }
+            
+                            .frame.two{
+    
+                                .image.bf{
+                                    background-size: 180%;
+                                    background-position: -170px -20px;
+                                }
+    
+                                .image.kf{
+                                    background-size: 130%;
+                                    background-position: -42px -25px;
+                                }
+                            }
+
+                            .frame.three{
+
+                                .image.kf{
+                                    background-position: -52px -15px;
+                                }
+                            }
+                        }
+            
+                        .our-buffet{
+                            grid-template-columns: minmax(auto, 200px) minmax(auto, 250px);
+                        }
+    
+                        .kit-feijoada{
+                            grid-template-columns: minmax(auto, 250px) minmax(auto, 200px);
+                        }
+
+                        .our-buffet .frame.three, .kit-feijoada .frame.one{
+    
+                            &::before{
+                                font-size: 1.8rem;
+                                width: 350px;
+                            }
+                        }
+    
+                        .title-box{
+
+                            .section-title{
+                                font-size: 2.5rem;
+    
+                                .underline-title{
+                                    width: 13px;
+                                    height: 13px;
+                                }
+                            }
+                        }
+                    }
+
+                    .delivery-btn-links{
+                        flex-direction: column;
+                        align-items: center;
+
+                        .whatsapp-container{
+                            margin-right: 0;
+                        }
+
+                        .ifood-container{
+                            margin-top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
