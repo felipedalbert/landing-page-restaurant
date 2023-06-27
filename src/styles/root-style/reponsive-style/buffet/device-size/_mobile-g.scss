@@ -1,0 +1,107 @@
+@media (max-width: 680px){
+    
+    body{
+
+        .main-content-box{
+
+            .container{
+                max-width: 500px;
+            }
+
+            section, header{
+                padding-inline: 20px;
+            }
+
+            .buffet{
+                padding-block: 134px 32px;
+
+                .container{
+
+                    .imgs-gallery{
+                        margin-bottom: 58px;
+    
+                        .our-buffet, .kit-feijoada{
+                            height: 580px;
+                            grid-template-rows: auto 220px 310px;
+                            column-gap: 20px;
+
+                            .frame.one{
+    
+                                .image.kf{
+                                    background-size: 105%;
+                                    background-position: 0 -5px;
+                                }
+                            }
+            
+                            .frame.two{
+    
+                                .image.bf{
+                                    background-size: 170%;
+                                    background-position: -160px -25px;
+                                }
+    
+                                .image.kf{
+                                    background-size: 125%;
+                                    background-position: -40px -30px;
+                                }
+                            }
+            
+                            .frame.three{
+    
+                                .image.bf{
+                                    background-position: center -30px;
+                                }
+    
+                                .image.kf{
+                                    background-size: 155%;
+                                    background-position: -55px center;
+                                }
+                            }
+                        }
+            
+                        .our-buffet{
+                            grid-template-columns: minmax(auto, 220px) minmax(auto, 270px);
+                            margin-bottom: 60px;
+
+                            .frame.three{
+                                margin-top: 40px;
+                            }
+                        }
+    
+                        .kit-feijoada{
+                            grid-template-columns: minmax(auto, 280px) minmax(auto, 210px);
+
+                            .frame.one{
+                                margin-top: 40px;
+
+                                &::after{
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }
+
+                        .our-buffet .frame.three, .kit-feijoada .frame.one{
+    
+                            &::before{
+                                font-size: 1.8rem;
+                                width: 350px;
+                            }
+                        }
+    
+                        .title-box{
+
+                            .section-title{
+                                font-size: 2.8rem;
+    
+                                .underline-title{
+                                    width: 14px;
+                                    height: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

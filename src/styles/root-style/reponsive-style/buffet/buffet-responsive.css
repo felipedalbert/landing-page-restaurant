@@ -326,4 +326,70 @@
     width: 16px;
     height: 16px;
   }
+}
+@media (max-width: 680px) {
+  body .main-content-box .container {
+    max-width: 500px;
+  }
+  body .main-content-box section, body .main-content-box header {
+    padding-inline: 20px;
+  }
+  body .main-content-box .buffet {
+    padding-block: 134px 32px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery {
+    margin-bottom: 58px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+    height: 580px;
+    grid-template-rows: auto 220px 310px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one .image.kf {
+    background-size: 105%;
+    background-position: 0 -5px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.bf {
+    background-size: 170%;
+    background-position: -160px -25px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.kf {
+    background-size: 125%;
+    background-position: -40px -30px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.bf {
+    background-position: center -30px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.kf {
+    background-size: 155%;
+    background-position: -55px center;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet {
+    grid-template-columns: minmax(auto, 220px) minmax(auto, 270px);
+    margin-bottom: 60px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three {
+    margin-top: 40px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+    grid-template-columns: minmax(auto, 280px) minmax(auto, 210px);
+  }
+  body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one {
+    margin-top: 40px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::after {
+    font-size: 0.8rem;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::before {
+    font-size: 1.8rem;
+    width: 350px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title {
+    font-size: 2.8rem;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title .underline-title {
+    width: 14px;
+    height: 14px;
+  }
 }/*# sourceMappingURL=buffet-responsive.css.map */
