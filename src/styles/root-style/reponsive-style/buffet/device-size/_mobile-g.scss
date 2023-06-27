@@ -298,3 +298,147 @@
         }
     }
 }
+
+@media (max-width: 448px){
+    
+    body{
+
+        .main-content-box{
+
+            .container{
+                max-width: 425px;
+            }
+
+            .buffet{
+                padding-block: 144px 30px;
+
+                .container{
+
+                    .imgs-gallery{
+                        width: 100%;
+                        margin-bottom: 40px;
+
+                        .our-buffet, .kit-feijoada{
+                            grid-template-rows: auto 300px 240px 300px;
+                            grid-template-columns: 1fr;
+                            height: auto;
+                            row-gap: 30px;
+
+                            .frame.one{
+    
+    
+                                .image.kf{
+                                    background-size: 110%;
+                                    background-position: -1vw -1vw;
+                                }
+                            }
+            
+                            .frame.two{
+    
+                                .image.bf{
+                                    background-size: 150%;
+                                    background-position: -40vw -30px;
+                                }
+    
+                                .image.kf{
+                                    background-size: 120%;
+                                    background-position: -10vw 40%;
+                                }
+                            }
+
+                            .frame.three{
+
+                                .image.bf{
+                                    background-size: 110%;
+                                    background-position: 0vw center;
+                                }
+    
+                                .image.kf{
+                                    background-size: 130%;
+                                    background-position: -14vw 60%
+                                }
+                            }
+                        }
+            
+                        .our-buffet{
+                            grid-template-areas: 
+                                "title"
+                                "img-1"
+                                "img-3" 
+                                "img-2";
+                            margin-bottom: 55px;
+
+                            .frame.three{
+                                margin-top: 0px;
+
+                                &::after{
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }
+    
+                        .kit-feijoada{
+                            grid-template-areas: 
+                                "title"
+                                "img-2"
+                                "img-1" 
+                                "img-3";
+
+                            .frame.one{
+                                margin-top: 0;
+
+                                &::after{
+                                    right: unset;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    color: #e2e2e2;
+                                    font-weight: 500;
+                                    width: 100%;
+                                }
+
+                                &:hover::after{
+                                    bottom: -1px;
+                                    padding: 3px 2px 2px 2px;
+                                    background-color: #ea1d2b;
+                                }
+                            }
+                        }
+
+                        .our-buffet .frame.three, .kit-feijoada .frame.one{
+    
+                            &::before{
+                                font-size: 1.4rem;
+                                width: 290px;
+                            }
+                        }
+    
+                        .title-box{
+
+                            .section-title{
+                                font-size: 3.5rem;
+    
+                                .underline-title{
+                                    width: 18px;
+                                    height: 18px;
+                                }
+                            }
+                        }
+                    }
+
+                    .delivery-btn-links{
+                        flex-direction: column;
+                        align-items: center;
+
+                        .whatsapp-container{
+                            margin-right: 0;
+                        }
+
+                        .ifood-container{
+                            margin-top: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

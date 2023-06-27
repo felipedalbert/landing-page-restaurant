@@ -497,4 +497,92 @@
   body .main-content-box .buffet .container .delivery-btn-links .ifood-container {
     margin-top: 8px;
   }
+}
+@media (max-width: 448px) {
+  body .main-content-box .container {
+    max-width: 425px;
+  }
+  body .main-content-box .buffet {
+    padding-block: 144px 30px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+    grid-template-rows: auto 300px 240px 300px;
+    grid-template-columns: 1fr;
+    height: auto;
+    row-gap: 30px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.one .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one .image.kf {
+    background-size: 110%;
+    background-position: -1vw -1vw;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.bf {
+    background-size: 150%;
+    background-position: -40vw -30px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.kf {
+    background-size: 120%;
+    background-position: -10vw 40%;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.bf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.bf {
+    background-size: 110%;
+    background-position: 0vw center;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.kf {
+    background-size: 130%;
+    background-position: -14vw 60%;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet {
+    grid-template-areas: "title" "img-1" "img-3" "img-2";
+    margin-bottom: 55px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three {
+    margin-top: 0px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::after {
+    font-size: 0.8rem;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .kit-feijoada {
+    grid-template-areas: "title" "img-2" "img-1" "img-3";
+  }
+  body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one {
+    margin-top: 0;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::after {
+    right: unset;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #e2e2e2;
+    font-weight: 500;
+    width: 100%;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one:hover::after {
+    bottom: -1px;
+    padding: 3px 2px 2px 2px;
+    background-color: #ea1d2b;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three::before, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.one::before {
+    font-size: 1.4rem;
+    width: 290px;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title {
+    font-size: 3.5rem;
+  }
+  body .main-content-box .buffet .container .imgs-gallery .title-box .section-title .underline-title {
+    width: 18px;
+    height: 18px;
+  }
+  body .main-content-box .buffet .container .delivery-btn-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main-content-box .buffet .container .delivery-btn-links .whatsapp-container {
+    margin-right: 0;
+  }
+  body .main-content-box .buffet .container .delivery-btn-links .ifood-container {
+    margin-top: 8px;
+  }
 }/*# sourceMappingURL=buffet-responsive.css.map */
