@@ -3,12 +3,18 @@ const closeMenu = document.querySelector('.close-menu-btn');
 const navigation = document.querySelector('.navigation');
 const navItems = document.querySelectorAll('.item');
 
-console.log(navItems)
-
 openMenu.addEventListener('click', () => navigation.classList.toggle('active'))
 
 closeMenu.addEventListener('click', () => navigation.classList.toggle('active'))
 
 navItems.forEach(item => {
-    item.addEventListener('click', () => {navigation.classList.toggle('active')})
-});
+    item.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        navigation.classList.toggle('active')
+
+        let anchorUrl = item.querySelector('a').getAttribute('data-url')
+
+        setTimeout(() => {window.location.href = `../../../${anchorUrl}`}, 300)
+    });
+})
