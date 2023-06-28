@@ -1,11 +1,14 @@
-let openMenu = document.querySelector('.open-menu-btn');
-let closeMenu = document.querySelector('.close-menu-btn');
-let navigation = document.querySelector('.navigation');
+const openMenu = document.querySelector('.open-menu-btn');
+const closeMenu = document.querySelector('.close-menu-btn');
+const navigation = document.querySelector('.navigation');
+const navItems = document.querySelectorAll('.item');
 
-openMenu.addEventListener('click', () => {
-    navigation.classList.toggle('active');
-})
+console.log(navItems)
 
-closeMenu.addEventListener('click', () => {
-    navigation.classList.toggle('active');
-})
+openMenu.addEventListener('click', () => navigation.classList.toggle('active'))
+
+closeMenu.addEventListener('click', () => navigation.classList.toggle('active'))
+
+navItems.forEach(item => {
+    item.addEventListener('click', () => {navigation.classList.toggle('active')})
+});
