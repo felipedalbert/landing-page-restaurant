@@ -13,7 +13,7 @@ body{
             left: 0;
             z-index: 2;
 
-            a{
+            .sandigo-logo{
 
                 img{
                     width: 124px;
@@ -26,17 +26,25 @@ body{
             .navigation{
                 
                 ul{
+
+                    
                     display: flex;
                     align-items: center;
                     column-gap: 44px;
 
-                    a{
+                    .item{
+                        cursor: pointer;
+                        
+                        a{
                         transition: ease-in-out .2s;
 
-                        &:hover{
-                            color: $palette-1;
+                            &:hover{
+                                color: $palette-1;
+                            }
                         }
                     }
+
+                    
                 }
 
                 .close-menu-btn{

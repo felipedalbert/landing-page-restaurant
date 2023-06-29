@@ -166,7 +166,7 @@ body .main-content-box header {
   left: 0;
   z-index: 2;
 }
-body .main-content-box header a img {
+body .main-content-box header .sandigo-logo img {
   width: 124px;
   height: 49px;
   margin-bottom: -6px;
@@ -177,10 +177,13 @@ body .main-content-box header .navigation ul {
   -moz-column-gap: 44px;
        column-gap: 44px;
 }
-body .main-content-box header .navigation ul a {
+body .main-content-box header .navigation ul .item {
+  cursor: pointer;
+}
+body .main-content-box header .navigation ul .item a {
   transition: ease-in-out 0.2s;
 }
-body .main-content-box header .navigation ul a:hover {
+body .main-content-box header .navigation ul .item a:hover {
   color: #ea1d2c;
 }
 body .main-content-box header .navigation .close-menu-btn {

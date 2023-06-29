@@ -7,6 +7,8 @@ openMenu.addEventListener('click', () => navigation.classList.toggle('active'))
 
 closeMenu.addEventListener('click', () => navigation.classList.toggle('active'))
 
+
+
 navItems.forEach(item => {
     item.addEventListener('click', (e) => {
         e.preventDefault();
@@ -15,7 +17,12 @@ navItems.forEach(item => {
 
         let anchorUrl = item.querySelector('a').getAttribute('data-url')
 
-        setTimeout(() => {window.location.href = `../../../${anchorUrl}`}, 300)
+        if(window.innerWidth <= 1024){
+            setTimeout(() => {window.location.href = `../../../${anchorUrl}`}, 300)
+        }else{
+            window.location.href = `../../../${anchorUrl}`
+        }
+        
     });
 })
 
