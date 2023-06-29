@@ -27,6 +27,7 @@ body{
                         background-color: $palette-2;
                         border-radius: 8px;
                         cursor: pointer;
+                        transition: ease-in-out .3s;
 
                         &:not(:last-child){
                             margin-bottom: 14px;
@@ -42,10 +43,10 @@ body{
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
-                            transition: ease .3s;
+                            transition: ease-in-out .3s;
 
                             h4{
-                                transition: ease .3s;
+                                transition: ease-in-out .3s;
                                 font-weight: 600;
                             }
 
@@ -54,7 +55,7 @@ body{
                                 font-size: 1.1rem;
                                 color: #a3a3a3;
                                 transform: rotate(-90deg);
-                                transition: ease .3s;
+                                transition: ease-in-out .3s;
                                 
                             }
                         }
@@ -63,7 +64,7 @@ body{
                             color: #3c3c3c;
                             height: 0;
                             overflow: hidden;
-                            transition: ease .2s;
+                            transition: ease-in-out .3s;
                             width: 455px;
                             margin-left: 15px;
                             padding-right: 10px;

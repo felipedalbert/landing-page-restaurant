@@ -492,6 +492,7 @@ body .main-content-box .faq .content-box .accordion .line-question {
   background-color: #ffffff;
   border-radius: 8px;
   cursor: pointer;
+  transition: ease-in-out 0.3s;
 }
 body .main-content-box .faq .content-box .accordion .line-question:not(:last-child) {
   margin-bottom: 14px;
@@ -503,10 +504,10 @@ body .main-content-box .faq .content-box .accordion .line-question .label {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: ease 0.3s;
+  transition: ease-in-out 0.3s;
 }
 body .main-content-box .faq .content-box .accordion .line-question .label h4 {
-  transition: ease 0.3s;
+  transition: ease-in-out 0.3s;
   font-weight: 600;
 }
 body .main-content-box .faq .content-box .accordion .line-question .label .arrow-down {
@@ -514,13 +515,13 @@ body .main-content-box .faq .content-box .accordion .line-question .label .arrow
   font-size: 1.1rem;
   color: #a3a3a3;
   transform: rotate(-90deg);
-  transition: ease 0.3s;
+  transition: ease-in-out 0.3s;
 }
 body .main-content-box .faq .content-box .accordion .line-question .text-content {
   color: #3c3c3c;
   height: 0;
   overflow: hidden;
-  transition: ease 0.2s;
+  transition: ease-in-out 0.3s;
   width: 455px;
   margin-left: 15px;
   padding-right: 10px;
