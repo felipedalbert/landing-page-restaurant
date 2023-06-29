@@ -27,13 +27,12 @@ body{
                         background-color: $palette-2;
                         border-radius: 8px;
                         cursor: pointer;
-                        transition: ease-in-out .3s;
 
                         &:not(:last-child){
                             margin-bottom: 14px;
                         }
 
-                        &:hover{
+                        &:hover .label{
                             h4{
                                 color: $palette-1;
                             }
@@ -43,10 +42,9 @@ body{
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
-                            transition: ease-in-out .3s;
 
                             h4{
-                                transition: ease-in-out .3s;
+                                transition: ease .3s;
                                 font-weight: 600;
                             }
 
@@ -55,19 +53,20 @@ body{
                                 font-size: 1.1rem;
                                 color: #a3a3a3;
                                 transform: rotate(-90deg);
-                                transition: ease-in-out .3s;
-                                
+                                transition: ease .3s;
                             }
                         }
 
                         .text-content{
                             color: #3c3c3c;
-                            height: 0;
+                            max-height: 0;
                             overflow: hidden;
-                            transition: ease-in-out .3s;
+                            transition: ease .3s;
                             width: 455px;
                             margin-left: 15px;
                             padding-right: 10px;
+                            opacity: 0;
+                            transform: translateY(-10px);
                         }
 
                         &:nth-child(3){
@@ -108,13 +107,19 @@ body{
                                     right: 0;
                                 }
                             }
-                            
+
+
+                            &.active{
+
+                                .text-content{
+                                    overflow-y: scroll;
+                                }
+                            }
                         }
 
                         &.active{
 
                             .label{
-                                margin-bottom: 10px;
 
                                 .arrow-down{
                                     transform: rotate(0);
@@ -126,31 +131,14 @@ body{
                                 }
                             }
                         
-                        }
-
-                        &:nth-child(even).active{
-
                             .text-content{
-                                height: 21px;
+                                opacity: 1;
+                                transform: translateY(0px);
+                                max-height: 105px;
+                                margin-top: 10px;
                             }
-                        }
-                        
-                        &:nth-child(odd).active{
-
-                            .text-content{
-                                height: 105px;
-                            }
-                        }
-
-                        &:nth-child(3).active{
-
-                            .text-content{
-                                overflow-y: scroll;
-                            }
-                        }
+                        } 
                     }
-
-                   
                 }
             }
         }

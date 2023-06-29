@@ -326,16 +326,20 @@
   }
   body .main-content-box .faq .container .content-box .accordion {
     width: 100%;
+    animation-delay: 0.5s;
+  }
+  body .main-content-box .faq .container .content-box .accordion .line-question {
+    animation-delay: 0.5s;
   }
   body .main-content-box .faq .container .content-box .accordion .line-question:hover:not(.active) h4 {
     color: unset;
   }
   body .main-content-box .faq .container .content-box .accordion .line-question .text-content {
     width: 95%;
+    animation-delay: 0.5s;
   }
   body .main-content-box .faq .container .content-box .accordion .line-question.active .text-content {
-    height: -moz-max-content;
-    height: max-content;
+    max-height: 279px;
   }
   body .main-content-box .contact .container {
     font-size: 1.5rem;

@@ -336,8 +336,10 @@
 
                         .accordion{
                             width: 100%;
+                            animation-delay: .5s;
 
                             .line-question{
+                                animation-delay: .5s;
 
                                 &:hover:not(.active){
                                     h4{
@@ -347,14 +349,16 @@
 
                                 .text-content{
                                     width: 95%;
+                                    animation-delay: .5s;
                                 }
 
                                 &.active{
 
                                     .text-content{
-                                        height: max-content;
+                                        max-height: 279px;
                                     }
                                 }
+                                
                             }
                         }
                     }
