@@ -7,8 +7,6 @@ openMenu.addEventListener('click', () => navigation.classList.toggle('active'))
 
 closeMenu.addEventListener('click', () => navigation.classList.toggle('active'))
 
-
-
 navItems.forEach(item => {
     item.addEventListener('click', (e) => {
         e.preventDefault();
@@ -21,10 +19,10 @@ navItems.forEach(item => {
             setTimeout(() => {window.location.href = `../../../${anchorUrl}`}, 300)
         }else{
             window.location.href = `../../../${anchorUrl}`
-        }
-        
+        }    
     });
 })
+
 
 
 const carouselImages = document.querySelectorAll('.carousel-img');
@@ -68,3 +66,22 @@ indicators.forEach((indicator, index) => {
         console.log(indicator)
     });
 });
+
+
+
+const questions = document.querySelectorAll('.line-question')
+
+questions.forEach(question => {
+    question.addEventListener('click', () =>{
+
+        let currentActiveQuestion = question.parentNode.querySelector('.active')
+
+        if(currentActiveQuestion){
+            currentActiveQuestion.classList.remove('active');
+
+            if(currentActiveQuestion == question) return
+        }
+
+        question.classList.add('active');
+    })
+})
