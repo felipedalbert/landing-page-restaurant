@@ -16,9 +16,9 @@ navItems.forEach(item => {
         let anchorUrl = item.querySelector('a').getAttribute('data-url')
 
         if(window.innerWidth <= 1024){
-            setTimeout(() => {window.location.href = {anchorUrl}}, 300)
+            setTimeout(() => {window.location.href = `https://felipedalbert.github.io/sandigo-restaurant/i${anchorUrl}`}, 300)
         }else{
-            window.location.href = anchorUrl
+            window.location.href = `https://felipedalbert.github.io/sandigo-restaurant/i${anchorUrl}`
         }    
     });
 })
