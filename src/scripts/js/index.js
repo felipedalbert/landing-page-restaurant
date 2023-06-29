@@ -1,7 +1,7 @@
 const openMenu = document.querySelector('.open-menu-btn');
 const closeMenu = document.querySelector('.close-menu-btn');
 const navigation = document.querySelector('.navigation');
-const navItems = document.querySelectorAll('.item');
+const navItems = document.querySelectorAll('.internal-link');
 
 openMenu.addEventListener('click', () => navigation.classList.toggle('active'))
 
