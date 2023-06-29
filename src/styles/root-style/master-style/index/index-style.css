@@ -307,7 +307,9 @@ body .main-content-box .carousel .carousel-img {
   width: 100%;
   position: absolute;
   z-index: -1;
-  opacity: 0.2;
+  opacity: 1;
+  opacity: 0.8;
+  filter: brightness(0%);
   transition: 0.3s ease-in-out;
 }
 body .main-content-box .carousel .carousel-img.one {
@@ -324,6 +326,7 @@ body .main-content-box .carousel .carousel-img.four {
 }
 body .main-content-box .carousel .carousel-img.active {
   opacity: 1;
+  filter: brightness(100%);
   z-index: 0;
 }
 body .main-content-box .carousel .conversion-text {
@@ -351,12 +354,14 @@ body .main-content-box .carousel .indicators {
   display: flex;
   position: absolute;
   bottom: 28px;
+  cursor: pointer;
 }
 body .main-content-box .carousel .indicators .indicator {
   width: 72px;
   height: 6px;
   background-color: #d3d3d3;
   border-radius: 10px;
+  transition: ease-in-out 0.3s;
 }
 body .main-content-box .carousel .indicators .indicator:not(:last-child) {
   margin-right: 21px;

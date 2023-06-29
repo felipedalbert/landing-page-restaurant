@@ -18,7 +18,9 @@ body{
                 width: 100%;
                 position: absolute;
                 z-index: -1;
-                opacity: .2;
+                opacity: 1;
+                opacity: .8;
+                filter: brightness(0%);
                 transition: 0.3s ease-in-out;
 
                 &.one{
@@ -39,6 +41,7 @@ body{
 
                 &.active{
                     opacity: 1;
+                    filter: brightness(100%);
                     z-index: 0;
                 }
             }
@@ -71,12 +74,14 @@ body{
                 display: flex;
                 position: absolute;
                 bottom: 28px;
+                cursor: pointer;
 
                 .indicator{
                     width: 72px;
                     height: 6px;
                     background-color: #d3d3d3;
                     border-radius: 10px;
+                    transition: ease-in-out .3s;
 
                     &:not(:last-child){
                         margin-right: 21px;
