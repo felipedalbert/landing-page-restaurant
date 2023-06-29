@@ -4,6 +4,12 @@
 
         .main-content-box{
 
+            .fixed-whatsapp-anchor{
+                transform: scale(.8);
+                bottom: 0;
+                right: 0;
+            }
+            
             .buffet{
                 padding-block: 134px 30px;
 
@@ -69,6 +75,11 @@
     body{
 
         .main-content-box{
+
+            .fixed-whatsapp-anchor{
+                transform: scale(.8);
+                bottom: 3px; 
+            }
 
             .buffet{
                 padding-block: 124px 35px;

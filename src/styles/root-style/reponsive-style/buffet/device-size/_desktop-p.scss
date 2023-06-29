@@ -96,6 +96,15 @@
 
         .main-content-box{
 
+            .back-to-top-btn{
+                display: none;
+            }
+
+            .fixed-whatsapp-anchor{
+                display: flex;
+                bottom: 8px;
+            }
+
             header{
                 top: -2px;
 
