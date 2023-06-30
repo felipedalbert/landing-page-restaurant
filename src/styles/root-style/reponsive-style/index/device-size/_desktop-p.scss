@@ -349,17 +349,19 @@
 
                                 .text-content{
                                     width: 95%;
-                                    animation-delay: .5s;
                                 }
 
-                                &.active{
-
+                                &:nth-child(3).active{
                                     .text-content{
                                         max-height: 279px;
-                                        overflow-y: hidden;
                                     }
                                 }
-                                
+        
+                                &:nth-child(even).active{
+                                    .text-content{
+                                        max-height: 50px;
+                                    }
+                                }
                             }
                         }
                     }

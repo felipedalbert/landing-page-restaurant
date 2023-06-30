@@ -133,10 +133,21 @@ body{
                         
                             .text-content{
                                 opacity: 1;
-                                max-height: 105px;
                                 margin-bottom: 18px;
                             }
-                        } 
+                        }
+                        
+                        &:nth-child(odd).active{
+                            .text-content{
+                                max-height: 105px;
+                            }
+                        }
+
+                        &:nth-child(even).active{
+                            .text-content{
+                                max-height: 21px;
+                            }
+                        }
                     }
                 }
             }

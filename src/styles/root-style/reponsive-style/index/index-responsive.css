@@ -336,11 +336,12 @@
   }
   body .main-content-box .faq .container .content-box .accordion .line-question .text-content {
     width: 95%;
-    animation-delay: 0.5s;
   }
-  body .main-content-box .faq .container .content-box .accordion .line-question.active .text-content {
+  body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(3).active .text-content {
     max-height: 279px;
-    overflow-y: hidden;
+  }
+  body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(even).active .text-content {
+    max-height: 50px;
   }
   body .main-content-box .contact .container {
     font-size: 1.5rem;
