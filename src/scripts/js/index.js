@@ -5,9 +5,9 @@ const navItems = document.querySelectorAll('.internal-link');
 
 function toggleMenu(){navigation.classList.toggle('active')}
 
-openMenu.addEventListener('click', () => toggleMenu)
+openMenu.addEventListener('click', toggleMenu)
 
-closeMenu.addEventListener('click', () => toggleMenu)
+closeMenu.addEventListener('click', toggleMenu)
 
 navItems.forEach(item => {
     item.addEventListener('click', (e) => {
@@ -32,7 +32,7 @@ const carouselImages = document.querySelectorAll('.carousel-img');
 const indicators = document.querySelectorAll('.indicator');
 const totalImages = carouselImages.length - 1;
 let currentImage = 0;
-let timer = setInterval(()=>{changeImage()}, 4000);
+let timer = setInterval(changeImage, 4000);
 
 function changeImage(){
     carouselImages[currentImage].classList.remove('active');
@@ -46,7 +46,7 @@ function changeImage(){
 
 function clearTimer() {
     clearInterval(timer);
-    timer = setInterval(()=>{changeImage()}, 5000); 
+    timer = setInterval(changeImage, 5000); 
 }
 
 function changeIndicator(){
@@ -65,8 +65,6 @@ indicators.forEach((indicator, index) => {
         });
         
         changeIndicator()
-
-        console.log(indicator)
     });
 });
 
