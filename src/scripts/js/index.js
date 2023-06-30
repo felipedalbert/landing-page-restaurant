@@ -132,6 +132,6 @@ const addressContainer = document.querySelector('#address')
 
 if(window.innerWidth <= 1024){
     locationAnchor.setAttribute('data-url', 'index.html#address')
-    addressContainer.style.scrollMarginTop = '150px'
+    addressContainer.style.scrollMarginTop = '140px'
 }
 
