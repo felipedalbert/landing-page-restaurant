@@ -72,7 +72,6 @@ indicators.forEach((indicator, index) => {
 const questions = document.querySelectorAll('.line-question')
 const knowMoreBtn = questions[0].parentNode.querySelector('a')
 
-
 questions.forEach(question => {
 
     question.addEventListener('click', (e) =>{
