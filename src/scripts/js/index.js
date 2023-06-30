@@ -116,7 +116,7 @@ form.addEventListener('submit', (e) => {
         validationAlert.innerHTML = 'Mensagem enviada com sucesso! <i class="fa-solid fa-check"></i>'
         validationAlert.querySelector('i').disabled = true
 
-        setTimeout(()=>form.submit(), 300)
+        setTimeout(()=>form.submit(), 50)
     }
 
     validationIcon.addEventListener('click', () => {
