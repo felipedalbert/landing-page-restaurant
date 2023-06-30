@@ -333,6 +333,9 @@
   body .main-content-box .faq .container .content-box .accordion .line-question .text-content {
     width: 95%;
   }
+  body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(1).active .text-content {
+    max-height: 125px;
+  }
   body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(3).active .text-content {
     max-height: 279px;
     overflow-y: hidden;

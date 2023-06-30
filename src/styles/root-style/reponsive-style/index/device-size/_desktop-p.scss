@@ -349,6 +349,12 @@
                                     width: 95%;
                                 }
 
+                                &:nth-child(1).active{
+                                    .text-content{
+                                        max-height: 125px;
+                                    }
+                                }
+
                                 &:nth-child(3).active{
                                     .text-content{
                                         max-height: 279px;
