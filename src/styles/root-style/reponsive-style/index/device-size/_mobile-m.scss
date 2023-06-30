@@ -221,6 +221,31 @@
                     }
                 } 
             }
+            
+            .faq{
+
+                .container{
+
+                    .searching-img{
+                        display: none;
+                    }
+
+                    .content-box{
+
+                        .accordion{
+
+                            .line-question{
+        
+                                &:nth-child(3).active{
+                                    .text-content{
+                                        max-height: 380px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
