@@ -126,8 +126,10 @@ form.addEventListener('submit', (e) => {
 })
 
 const locationAnchor = document.querySelector('[data-url="index.html#contact"]:last-child') 
+const addressContainer = document.querySelector('#address')
 
 if(window.innerWidth <= 1024){
     locationAnchor.setAttribute('data-url', 'index.html#address')
+    addressContainer.style.scrollMarginTop = '170px'
 }
 
