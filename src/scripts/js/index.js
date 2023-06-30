@@ -3,22 +3,25 @@ const closeMenu = document.querySelector('.close-menu-btn');
 const navigation = document.querySelector('.navigation');
 const navItems = document.querySelectorAll('.internal-link');
 
-openMenu.addEventListener('click', () => navigation.classList.toggle('active'))
+function toggleMenu(){navigation.classList.toggle('active')}
 
-closeMenu.addEventListener('click', () => navigation.classList.toggle('active'))
+openMenu.addEventListener('click', () => toggleMenu)
+
+closeMenu.addEventListener('click', () => toggleMenu)
 
 navItems.forEach(item => {
     item.addEventListener('click', (e) => {
         e.preventDefault();
 
-        navigation.classList.toggle('active')
+        toggleMenu()
 
-        let anchorUrl = item.querySelector('a').getAttribute('data-url')
+        const directoryUrl = item.querySelector('a').getAttribute('data-url')
+        const defaultDomain = 'https://felipedalbert.github.io/sandigo-restaurant/'
 
         if(window.innerWidth <= 1024){
-            setTimeout(() => {window.location.href = `https://felipedalbert.github.io/sandigo-restaurant/${anchorUrl}`}, 300)
+            setTimeout(() => {window.location.href = defaultDomain + directoryUrl}, 300)
         }else{
-            window.location.href = `https://felipedalbert.github.io/sandigo-restaurant/${anchorUrl}`
+            window.location.href = defaultDomain + directoryUrl
         }    
     });
 })
