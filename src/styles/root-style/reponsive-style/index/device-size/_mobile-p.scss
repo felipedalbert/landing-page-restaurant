@@ -76,6 +76,34 @@
                     }
                 }
             }
+
+            .faq{
+
+                .container{
+
+                    .searching-img{
+                        display: none;
+                    }
+
+                    .content-box{
+                        width: 100%;
+
+                        .accordion{
+                            width: 100%;
+                            animation-delay: .5s;
+
+                            .line-question{
+        
+                                &:nth-child(even).active{
+                                    .text-content{
+                                        max-height: 63px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

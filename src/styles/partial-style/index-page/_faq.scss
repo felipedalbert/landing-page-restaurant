@@ -143,7 +143,7 @@ body{
                             }
                         }
 
-                        &:nth-child(even).active{
+                        &:nth-child(odd).active{
                             .text-content{
                                 max-height: 21px;
                             }

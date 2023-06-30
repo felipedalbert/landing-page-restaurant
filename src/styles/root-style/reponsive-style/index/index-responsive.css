@@ -326,10 +326,6 @@
   }
   body .main-content-box .faq .container .content-box .accordion {
     width: 100%;
-    animation-delay: 0.5s;
-  }
-  body .main-content-box .faq .container .content-box .accordion .line-question {
-    animation-delay: 0.5s;
   }
   body .main-content-box .faq .container .content-box .accordion .line-question:hover:not(.active) h4 {
     color: unset;
@@ -887,6 +883,19 @@
   }
   body .main-content-box .delivery .container .deliveryman-img {
     width: 95vw;
+  }
+  body .main-content-box .faq .container .searching-img {
+    display: none;
+  }
+  body .main-content-box .faq .container .content-box {
+    width: 100%;
+  }
+  body .main-content-box .faq .container .content-box .accordion {
+    width: 100%;
+    animation-delay: 0.5s;
+  }
+  body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(even).active .text-content {
+    max-height: 63px;
   }
 }
 @media (min-width: 1366px) and (min-height: 800px) {
