@@ -355,10 +355,25 @@
                                     }
                                 }
 
-                                &:nth-child(3).active{
-                                    .text-content{
-                                        max-height: 279px;
-                                        overflow-y: hidden;
+                                &:nth-child(3){
+
+                                    a{
+                                        border-bottom: solid currentColor 1px;
+                                        
+                                        &:active{
+                                            color: #bb1621;
+                                        }
+
+                                        &::before{
+                                            height: 0;
+                                        }
+                                    }
+                                    
+                                    &.active{
+                                        .text-content{
+                                            max-height: 279px;
+                                            overflow-y: hidden;
+                                        }
                                     }
                                 }
         

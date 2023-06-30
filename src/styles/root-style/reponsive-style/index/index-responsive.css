@@ -336,6 +336,15 @@
   body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(1).active .text-content {
     max-height: 125px;
   }
+  body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(3) a {
+    border-bottom: solid currentColor 1px;
+  }
+  body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(3) a:active {
+    color: #bb1621;
+  }
+  body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(3) a::before {
+    height: 0;
+  }
   body .main-content-box .faq .container .content-box .accordion .line-question:nth-child(3).active .text-content {
     max-height: 279px;
     overflow-y: hidden;
