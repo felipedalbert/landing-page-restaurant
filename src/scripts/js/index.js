@@ -32,7 +32,7 @@ const carouselImages = document.querySelectorAll('.carousel-img');
 const indicators = document.querySelectorAll('.indicator');
 const totalImages = carouselImages.length - 1;
 let currentImage = 0;
-let timer = setInterval(()=>{changeImage()}, 5000);
+let timer = setInterval(()=>{changeImage()}, 4000);
 
 function changeImage(){
     carouselImages[currentImage].classList.remove('active');
