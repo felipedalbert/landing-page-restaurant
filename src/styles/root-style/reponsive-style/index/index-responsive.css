@@ -78,6 +78,9 @@
     -moz-column-gap: 70px;
          column-gap: 70px;
   }
+  body .main-content-box footer .container .social .icons {
+    text-align: center;
+  }
   body .main-content-box footer .container .copyright {
     margin-top: 20px;
     font-size: 1.4rem;
