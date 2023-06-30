@@ -1,3 +1,10 @@
+const rightBottomBtns = document.querySelectorAll('.rigth-bottom-btn')
+
+window.addEventListener('scroll', () => {
+    rightBottomBtns.forEach(btn => btn.classList.toggle('active', window.scrollY > 50))
+})
+
+
 const openMenu = document.querySelector('.open-menu-btn');
 const closeMenu = document.querySelector('.close-menu-btn');
 const navigation = document.querySelector('.navigation');
@@ -134,4 +141,3 @@ if(window.innerWidth <= 1024){
     locationAnchor.setAttribute('data-url', 'index.html#address')
     addressContainer.style.scrollMarginTop = '140px'
 }
-
