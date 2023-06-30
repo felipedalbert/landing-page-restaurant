@@ -572,7 +572,7 @@ body .main-content-box .faq .content-box .accordion .line-question.active .text-
 body .main-content-box .faq .content-box .accordion .line-question:nth-child(odd).active .text-content {
   max-height: 105px;
 }
-body .main-content-box .faq .content-box .accordion .line-question:nth-child(odd).active .text-content {
+body .main-content-box .faq .content-box .accordion .line-question:nth-child(even).active .text-content {
   max-height: 21px;
 }
 
