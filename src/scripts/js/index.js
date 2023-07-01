@@ -182,7 +182,6 @@ function setBreakPoints(){
 
     if(window.innerWidth <= 458){
         sideImgs.setAttribute('data-aos-offset', '30')
-        deliverymanImg.setAttribute('data-aos-offset', '-40')
         addressContainer.setAttribute('data-aos-offset', '-20')
     }
 
