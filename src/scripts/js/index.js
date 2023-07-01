@@ -188,7 +188,6 @@ function setBreakPoints(){
 
     if(window.innerWidth <= 368){
         sideImgs.setAttribute('data-aos-offset', '15')
-        addressContainer.setAttribute('data-aos-offset', '0')
     }
 }
 
