@@ -19,3 +19,10 @@
         opacity: .9;
     }
 }
+
+@keyframes displayoff{
+    to{
+        height: 0;
+        width: 0;
+    }
+}
