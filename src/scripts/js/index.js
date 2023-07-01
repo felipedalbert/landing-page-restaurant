@@ -194,5 +194,6 @@ function setBreakPoints(){
     }
 }
 
-window.addEventListener('load', setBreakPoints);
+setBreakPoints()
+
 window.addEventListener('resize', setBreakPoints);
