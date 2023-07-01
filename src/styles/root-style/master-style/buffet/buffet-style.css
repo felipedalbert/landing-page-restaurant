@@ -187,10 +187,10 @@ body .main-content-box header .navigation ul {
 body .main-content-box header .navigation ul .item {
   cursor: pointer;
 }
-body .main-content-box header .navigation ul .item a {
+body .main-content-box header .navigation ul .item:not(:last-child) a {
   transition: ease-in-out 0.2s;
 }
-body .main-content-box header .navigation ul .item a:hover {
+body .main-content-box header .navigation ul .item:not(:last-child) a:hover {
   color: #ea1d2c;
 }
 body .main-content-box header .navigation .close-menu-btn {
