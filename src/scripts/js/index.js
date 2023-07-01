@@ -177,7 +177,7 @@ function setBreakPoints(){
 
     if(window.innerWidth <= 498){
         sideImgs.setAttribute('data-aos-offset', '60')
-        deliverymanImg.setAttribute('data-aos-offset', '-20')
+        deliverymanImg.setAttribute('data-aos-offset', '10')
     }
 
     if(window.innerWidth <= 458){
