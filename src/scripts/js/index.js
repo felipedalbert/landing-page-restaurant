@@ -1,5 +1,3 @@
-AOS.init();
-
 const rightBottomBtns = document.querySelectorAll('.rigth-bottom-btn')
 
 window.addEventListener('scroll', () => {
