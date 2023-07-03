@@ -7,7 +7,7 @@ window.addEventListener('scroll', () => {
 const locationAnchor = document.querySelector('[data-url="index.html#contact"]:last-child') 
 const addressContainer = document.querySelector('#address')
 
-addressContainer.style.scrollMarginTop = (window.scrollY >= 3200) ? '140px' : '240px'
+if(addressContainer) addressContainer.style.scrollMarginTop = (window.scrollY >= 3200) ? '140px' : '240px'
 
 if(window.innerWidth <= 680) locationAnchor.setAttribute('data-url', 'index.html#address')
 
