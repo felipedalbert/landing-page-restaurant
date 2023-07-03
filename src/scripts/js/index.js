@@ -4,6 +4,12 @@ window.addEventListener('scroll', () => {
     rightBottomBtns.forEach(btn => btn.classList.toggle('active', window.scrollY > 50))
 })
 
+const locationAnchor = document.querySelector('[data-url="index.html#contact"]:last-child') 
+const addressContainer = document.querySelector('#address')
+
+addressContainer.style.scrollMarginTop = (window.scrollY >= 3200) ? '140px' : '240px'
+
+if(window.innerWidth <= 680) locationAnchor.setAttribute('data-url', 'index.html#address')
 
 const openMenu = document.querySelector('.open-menu-btn');
 const closeMenu = document.querySelector('.close-menu-btn');
@@ -131,16 +137,6 @@ form.addEventListener('submit', (e) => {
         validationAlert.classList.remove('active')
     })
 })
-
-
-
-const locationAnchor = document.querySelector('[data-url="index.html#contact"]:last-child') 
-const addressContainer = document.querySelector('#address')
-
-if(window.innerWidth <= 680){
-    locationAnchor.setAttribute('data-url', 'index.html#address')
-    addressContainer.style.scrollMarginTop = (window.scrollY <= 3200) ? '140px' : '240px'
-}
 
 
 
