@@ -296,14 +296,14 @@
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type::after {
     margin-inline: 3px;
   }
-  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
-    content: ".................................................................................................................................................................";
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m-p::after {
+    content: "........................................................................................................................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
-    content: "........................................................................................................................................................................";
+    content: "..........................................................................................................................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
-    content: ".....................................................................................................................................................................";
+    content: "......................................................................................................................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
     content: "..................................................................................................................................................";
@@ -427,14 +427,14 @@
     bottom: 0;
     right: 0;
   }
-  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
-    content: "..............................................................................................................................";
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m-p::after {
+    content: "....................................................................................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
-    content: ".....................................................................................................................................";
+    content: "......................................................................................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
-    content: "..................................................................................................................................";
+    content: "..................................................................................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
     content: "...............................................................................................................";
@@ -483,14 +483,14 @@
     width: 292px;
     height: 200px;
   }
-  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
-    content: ".......................................................................................";
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m-p::after {
+    content: "............................................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
-    content: "..............................................................................................";
+    content: "..............................................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
-    content: "..........................................................................................";
+    content: "...........................................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
     content: ".......................................................................";
@@ -589,17 +589,17 @@
   body .main-content-box .imgs-panel .container {
     width: 400vw;
   }
-  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
-    content: ".......................................................................";
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m-p::after {
+    content: "............................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
-    content: "..............................................................................";
+    content: "..............................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
-    content: "..........................................................................";
+    content: "..........................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
-    content: ".......................................................";
+    content: "......................................................";
   }
 }
 @media (max-width: 498px) {
@@ -702,17 +702,17 @@
   body .main-content-box .delivery {
     padding-block: 60px;
   }
-  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
-    content: "..........................................................";
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m-p::after {
+    content: "...............................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
-    content: "................................................................";
+    content: ".................................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
-    content: ".............................................................";
+    content: ".............................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
-    content: "..........................................";
+    content: ".........................................";
   }
   body .main-content-box .contact {
     background-image: url(../../../../images/section-images/contact/responsive/r-contact-bg.png);
@@ -732,14 +732,14 @@
   }
 }
 @media (max-width: 398px) {
-  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
-    content: "...............................................";
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m-p::after {
+    content: ".....................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
-    content: "......................................................";
+    content: ".......................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
-    content: "...................................................";
+    content: "...................................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
     content: "................................";
@@ -799,14 +799,14 @@
   body .main-content-box .delivery {
     padding-block: 50px;
   }
-  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
-    content: ".....................................";
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m-p::after {
+    content: "...........................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
-    content: "............................................";
+    content: ".............................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
-    content: ".........................................";
+    content: ".........................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
     content: ".....................";
@@ -847,14 +847,14 @@
   body .main-content-box .carousel .indicators .indicator {
     width: 52px;
   }
-  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.p::after {
-    content: "..............................";
+  body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m-p::after {
+    content: "....................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.m::after {
-    content: ".....................................";
+    content: "......................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.g::after {
-    content: "..................................";
+    content: "..................";
   }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type.kf::after {
     content: "...............";
