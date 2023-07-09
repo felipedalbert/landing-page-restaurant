@@ -295,6 +295,13 @@
 
                 .container{
                     width: 800px;
+  
+                    .benefit{
+
+                        &.hall-rent{
+                            max-width: 115px;
+                        }
+                    }
                 }
             }
 

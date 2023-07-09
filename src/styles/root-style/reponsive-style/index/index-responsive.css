@@ -620,6 +620,9 @@
   body .main-content-box .benefits .container {
     width: 800px;
   }
+  body .main-content-box .benefits .container .benefit.hall-rent {
+    max-width: 115px;
+  }
   body .main-content-box .about-us .container {
     padding-top: 120px;
     background-size: 390px;
