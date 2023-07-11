@@ -29,7 +29,7 @@ navItems.forEach(item => {
         toggleMenu()
 
         const directoryUrl = item.querySelector('a').getAttribute('data-url')
-        const defaultDomain = 'https://felipedalbert.github.io/sandigo-restaurant/'
+        const defaultDomain = 'https://felipedalbert.github.io/landing-page-restaurant/'
 
         if(window.innerWidth <= 1024){
             setTimeout(() => {window.location.href = defaultDomain + directoryUrl}, 300)
