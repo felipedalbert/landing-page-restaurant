@@ -479,8 +479,8 @@ body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.two .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.two .image.kf {
   background-image: url("../../../../images/section-images/buffet/kitf-2.jpg");
-  background-size: 130%;
-  background-position: -55px -40px;
+  background-size: 150%;
+  background-position: -85px -45px;
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three {
   grid-area: img-3;
@@ -491,8 +491,8 @@ body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet .frame.three .image.kf, body .main-content-box .buffet .container .imgs-gallery .kit-feijoada .frame.three .image.kf {
   background-image: url("../../../../images/section-images/buffet/kitf-3.jpg");
-  background-size: 150%;
-  background-position: -72px center;
+  background-size: 145%;
+  background-position: -65px center;
 }
 body .main-content-box .buffet .container .imgs-gallery .our-buffet {
   grid-template-columns: minmax(auto, 267px) minmax(auto, 329px) minmax(auto, 442px);
