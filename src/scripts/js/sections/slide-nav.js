@@ -17,11 +17,10 @@ navItems.forEach(item => {
 
         const directoryUrl = item.querySelector('a').getAttribute('data-url')
         const defaultDomain = 'https://restaurantesandigo.com.br/'
-
         if(window.innerWidth <= 1024){
             setTimeout(() => {window.location.href = defaultDomain + directoryUrl}, 300)
         }else{
-            window.location.href = (window.location.href == 'https://restaurantesandigo.com.br/secondary-page/buffet.html') ? defaultDomain + directoryUrl : directoryUrl
+            window.location.href = defaultDomain + directoryUrl
         }    
     });
 })
