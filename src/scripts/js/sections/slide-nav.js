@@ -21,7 +21,7 @@ navItems.forEach(item => {
         if(window.innerWidth <= 1024){
             setTimeout(() => {window.location.href = defaultDomain + directoryUrl}, 300)
         }else{
-            window.location.href = defaultDomain + directoryUrl
+            window.location.href = (window.location.href == 'https://restaurantesandigo.com.br/secondary-page/buffet.html') ? defaultDomain + directoryUrl : directoryUrl
         }    
     });
 })
