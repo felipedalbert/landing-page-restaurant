@@ -280,6 +280,10 @@
                             .marmite{
                                 justify-content: center;
 
+                                &::before, &::after{
+                                    display: none;
+                                }
+
                                 .type::after{
                                     margin-inline: 3px;
                                 }

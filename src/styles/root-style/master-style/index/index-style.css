@@ -469,6 +469,7 @@ body .main-content-box .delivery .info .title-box {
 }
 body .main-content-box .delivery .info .marmite-prices {
   margin-bottom: 32px;
+  position: relative;
 }
 body .main-content-box .delivery .info .marmite-prices .marmite {
   display: flex;
@@ -478,6 +479,45 @@ body .main-content-box .delivery .info .marmite-prices .marmite:not(:last-of-typ
 }
 body .main-content-box .delivery .info .marmite-prices .marmite .separator {
   margin-right: 4px;
+}
+body .main-content-box .delivery .info .marmite-prices .marmite:nth-child(4) {
+  display: inline-flex;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+body .main-content-box .delivery .info .marmite-prices .marmite:nth-child(4)::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: -5px;
+  background: #ea1d2c;
+  height: 2px;
+  transition-property: right;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+}
+body .main-content-box .delivery .info .marmite-prices .marmite:nth-child(4):hover::before {
+  right: 0;
+}
+body .main-content-box .delivery .info .marmite-prices .marmite:nth-of-type(4)::after {
+  content: "";
+  position: absolute;
+  width: 190px;
+  height: 135px;
+  background-image: url(../../../../images/section-images/buffet/kitf-1.jpg);
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: -150%;
+  left: 148%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+}
+body .main-content-box .delivery .info .marmite-prices .marmite:nth-of-type(4):hover::after {
+  opacity: 1;
 }
 body .main-content-box .delivery .deliveryman-img {
   width: 560px;

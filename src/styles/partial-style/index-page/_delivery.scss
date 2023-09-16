@@ -13,6 +13,7 @@ body{
 
                 .marmite-prices{
                     margin-bottom: 32px;
+                    position: relative;
 
                     .marmite{
                         display: flex;
@@ -23,6 +24,54 @@ body{
 
                         .separator{
                             margin-right: 4px;
+                        }
+
+                        &:nth-child(4){
+                            display: inline-flex;
+                            -webkit-transform: perspective(1px) translateZ(0);
+                            transform: perspective(1px) translateZ(0);
+                            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+                            &::before{
+                                content: "";
+                                position: absolute;
+                                z-index: -1;
+                                left: 0;
+                                right: 100%;
+                                bottom: -5px;
+                                background: $palette-1;
+                                height: 2px;
+                                -webkit-transition-property: right;
+                                transition-property: right;
+                                -webkit-transition-duration: 0.2s;
+                                transition-duration: 0.1s;
+                                -webkit-transition-timing-function: ease-out;
+                                transition-timing-function: ease-out;
+                            }
+
+                            &:hover::before{
+                                right: 0;
+                            }
+                        }
+
+                        &:nth-of-type(4)::after{
+                            content: "";
+                            position: absolute;
+                            width: 190px;
+                            height: 135px;
+                            background-image: url(../../../../images/section-images/buffet/kitf-1.jpg);
+                            border-radius: 10px;
+                            background-size: cover;
+                            background-repeat: no-repeat;
+                            top: -150%;
+                            left: 148%;
+                            transform: translate(-50%, -50%);
+                            opacity: 0;
+                            transition: ease-in-out .3s;
+                        }
+
+                        &:nth-of-type(4):hover::after{
+                            opacity: 1;
                         }
                     }
 

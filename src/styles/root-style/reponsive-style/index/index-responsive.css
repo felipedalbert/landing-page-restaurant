@@ -293,6 +293,9 @@
   body .main-content-box .delivery .container .info .marmite-prices .marmite {
     justify-content: center;
   }
+  body .main-content-box .delivery .container .info .marmite-prices .marmite::before, body .main-content-box .delivery .container .info .marmite-prices .marmite::after {
+    display: none;
+  }
   body .main-content-box .delivery .container .info .marmite-prices .marmite .type::after {
     margin-inline: 3px;
   }
